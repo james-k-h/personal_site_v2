@@ -123,3 +123,9 @@ body {
 #test1 {
   background-color: #d3d3d3;
 }
+
+#links:hover {
+  color: grey;
+  transform: scale(1.1);
+  opacity: 50%;
+}

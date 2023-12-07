@@ -96,9 +96,6 @@ const Navbar = () => {
         <Link href="/projects" className="mr-2">
           Projects
         </Link>
-        <Link href="/experience" className="mr-2">
-          Experience
-        </Link>
         <Link
           target="_blank"
           href="https://my-blog-bice-sigma.vercel.app/"
@@ -138,9 +135,6 @@ const Navbar = () => {
         <Link href="/projects" className="mr-2">
           Projects
         </Link>
-        <Link href="/experience" className="mr-2">
-          Experience
-        </Link>
         <Link
           target="_blank"
           href="https://my-blog-bice-sigma.vercel.app/"
@@ -151,10 +145,6 @@ const Navbar = () => {
         <Link href="/links" className="mr-2">
           Links
         </Link>
-        {/* 
-        !!! 
-        triggers light/dark 
-        */}
         <button
           onClick={() => setMode(mode === 'light' ? 'dark' : 'light')}
           className={cx(

@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: 'Portfolio Website',
-    description: 'Personal portfolio site, handcrafted with Next.js.',
+    description: 'Personal portfolio site.',
     image: '/images/projects/personal_site.png',
     tag: ['All', 'Web'],
     gitUrl: '/',
