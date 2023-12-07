@@ -38,8 +38,11 @@ const ProjectCard = ({
         bg-light dark:bg-dark"
       >
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
+        <p className=" text-white dark:text-light">
+          <b>Stack:</b> {stack}
+        </p>
         <p className=" text-white dark:text-light">{description}</p>
-        <p className=" text-white dark:text-light">{stack}</p>
+
       </div>
     </div>
   );

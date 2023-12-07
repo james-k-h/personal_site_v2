@@ -67,8 +67,8 @@ const projectsData = [
   },
   {
     id: 7,
-    stack: 'Next.js',
-    title: 'Mongo, Express, React, Node',
+    stack: 'Mongo, Express, React, Node',
+    title: 'Admin Dashboard',
     description: 'Dashboard for key E-Commerce facts. ',
     image: '/images/projects/mern_dash.png',
     tag: ['All', 'Web'],
@@ -163,6 +163,7 @@ const ProjectsSection = () => {
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
+              stack={project.stack}
             />
           </motion.li>
         ))}
