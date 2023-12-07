@@ -11,8 +11,8 @@ const projectsData = [
     description: 'Personal portfolio site.',
     image: '/images/projects/personal_site.png',
     tag: ['All', 'Web'],
-    gitUrl: '/',
-    previewUrl: '/',
+    gitUrl: 'https://github.com/james-k-h/personal_site_v2',
+    previewUrl: 'https://jkh-personal.vercel.app/',
   },
   {
     id: 2,

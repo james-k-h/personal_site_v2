@@ -100,7 +100,7 @@ const LatestWorks = () => {
   };
   return (
     <main>
-      <h2 className=" text-white dark:text-lightGray mb-4 text-2xl sm:text-1xl lg:text-2xl lg:leading-normal font-extrabold text-center">
+      <h2 className=" text-center text-4xl font-bold  text-white dark:text-light mt-4 mb-8 md:mb-12">
         <span>Portfolio Projects</span>
       </h2>
       <div>

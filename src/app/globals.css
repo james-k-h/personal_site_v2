@@ -127,5 +127,6 @@ body {
 #links:hover {
   color: grey;
   transform: scale(1.1);
-  opacity: 50%;
+  opacity: 70%;
+  transition-duration: 1s;
 }
