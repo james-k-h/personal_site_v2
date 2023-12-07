@@ -7,6 +7,7 @@ import { motion, useInView } from 'framer-motion';
 const projectsData = [
   {
     id: 1,
+    stack: 'Next.js, TailwindCSS',
     title: 'Portfolio Website',
     description: 'Personal portfolio site.',
     image: '/images/projects/personal_site.png',
@@ -16,6 +17,7 @@ const projectsData = [
   },
   {
     id: 2,
+    stack: 'Next.js, TypeScript, Mongo, TailwindCSS',
     title: 'Next Property Rental',
     description: 'Rent your property, or reserve one for yourself.',
     image: '/images/projects/next_property_rental.png',
@@ -25,6 +27,7 @@ const projectsData = [
   },
   {
     id: 3,
+    stack: 'Next.js, Supabase, TailwindCSS',
     title: 'My Blog',
     description: 'Sharing my thoughts, one post at a time.',
     image: '/images/projects/my_blog.png',
@@ -34,6 +37,7 @@ const projectsData = [
   },
   {
     id: 4,
+    stack: 'Mongo, Express, Next.js, Node',
     title: 'Job Search App',
     description: 'A web app solution to help organize your job search.',
     image: '/images/projects/job_search_stats.png',
@@ -43,6 +47,7 @@ const projectsData = [
   },
   {
     id: 5,
+    stack: 'Java',
     title: 'Pirate Platformer',
     description: 'Traverse through various levels.',
     image: '/images/projects/java_platformer.png',
@@ -52,6 +57,7 @@ const projectsData = [
   },
   {
     id: 6,
+    stack: 'Next.js, TS, TailwindCSS',
     title: 'Communities',
     description: 'Create and follow your favourite communities. ',
     image: '/images/projects/communities.png',
@@ -61,7 +67,8 @@ const projectsData = [
   },
   {
     id: 7,
-    title: 'Admin Dashboard',
+    stack: 'Next.js',
+    title: 'Mongo, Express, React, Node',
     description: 'Dashboard for key E-Commerce facts. ',
     image: '/images/projects/mern_dash.png',
     tag: ['All', 'Web'],
@@ -70,6 +77,7 @@ const projectsData = [
   },
   {
     id: 8,
+    stack: 'Next.js, Mongo, Stripe, TailwindCSS',
     title: 'E-Commerce PoC - Sneaker Store',
     description: 'View and purchase sneakers leveraging Stripe. ',
     image: '/images/projects/sneaker_store.png',
@@ -79,6 +87,7 @@ const projectsData = [
   },
   {
     id: 9,
+    stack: 'TypeScript, React, GO',
     title: 'Code Editor',
     description: 'Code on the fly. ',
     image: '/images/projects/code_editor.png',
@@ -88,6 +97,7 @@ const projectsData = [
   },
   {
     id: 10,
+    stack: 'React-Native, Redux, Firebase',
     title: 'Animal Encyclopedia',
     description: 'Handy animal fact guidebook.',
     image: '/images/projects/animal_app2.png',
