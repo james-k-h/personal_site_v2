@@ -86,7 +86,7 @@ const Experience = () => {
             type="Meta Back-End Developer Certification"
             time="November 2023"
             provider="Meta"
-            info="Meta certification, focused on API development alongside version control, using Python and Django."
+            info="Server-side certification, focused on API development alongside version control, using Python and Django."
           />{' '}
           <Details
             position="Manager - Supply Chain Systems"
