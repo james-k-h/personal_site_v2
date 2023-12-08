@@ -100,8 +100,13 @@ const LatestWorks = () => {
   };
   return (
     <main>
-      <h2 className=" text-center text-4xl font-bold  text-white dark:text-light mt-4 mb-8 md:mb-12">
-        <span>Portfolio Projects</span>
+      <h2 className=" text-center text-4xl font-bold  text-white dark:text-light mt-4 mb-8 md:mb-12 ">
+        <span
+          className="border-2 rounded-3xl border-white dark:border-light p-2 opacity-75
+        bg-light dark:bg-dark"
+        >
+          Portfolio Projects
+        </span>
       </h2>
       <div>
         {/* CSS files for react-slick */}

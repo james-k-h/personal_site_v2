@@ -70,7 +70,7 @@ const Experience = () => {
   });
 
   return (
-    <div className="my-32">
+    <div className="my-20">
       <h2 className="font-bold text-8xl mb-32 w-full text-center text-dark dark:text-white">
         Experience
       </h2>
@@ -94,7 +94,7 @@ const Experience = () => {
             companyLink="https://www.loblaw.ca/"
             time="June 2023 - Present"
             address="1 PCC, Brampton"
-            work="placeholder"
+            work="Warehouse Management, part of a program team responsible for rolling out and supporting a Cloud-Native WMS Application for Loblaw and Shoppers Distribution Centers."
           />{' '}
           <DetailsEducation
             type="Full Stack Developer Program"
