@@ -84,7 +84,7 @@ const LinksPage = () => {
           text="My Favourite Links - A Collection of Articles"
           className="  text-white dark:text-lightGray mb-10 mt-12"
         />
-        <ul className="grid grid-cols-2 gap-16 ">
+        <ul className="md:grid md:grid-cols-2 gap-16 ">
           <FeaturedArticle
             title="Taking stock of the ongoing war in Israel and Gaza"
             summary="After six days of a humanitarian pause at the end of November and the release of more than 100 hostages, fighting has resumed in Gaza and the Israeli offensive has expanded south toward Khan Yunis, Gaza’s second-largest city.
