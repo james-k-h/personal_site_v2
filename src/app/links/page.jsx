@@ -1,10 +1,10 @@
-import LinksSection from './../components/links/LinksSection';
+import LinksPage from '../components/links/LinksPage';
 
 const Links = () => {
   return (
     <main className="flex min-h-screen flex-col">
-      <div className="container mt-12 mx-auto px-12 py-4 ">
-        <LinksSection />
+      <div className="container mt-6 mx-auto px-12 py-4 ">
+        <LinksPage />
       </div>
     </main>
   );

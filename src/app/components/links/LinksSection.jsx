@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import '../../globals.css';
 
-const links_array = [
+export const links_array = [
   {
     Title: 'Hypersonic Weapons, the Future of Warfare?',
     Date: 'April 30, 2023',
@@ -44,25 +44,4 @@ const links_array = [
   },
 ];
 
-const LinksSection = () => {
-  return (
-    <main
-      className="text-white dark:text-light rounded-3xl  border-2  border-white dark:border-light p-4 opacity-75
-    bg-light dark:bg-dark"
-    >
-      <h2 className="font-bold text-center mt-3 py-2 text-lg">Misc Links </h2>
-      {links_array.map((item) => {
-        return (
-          <div key={item.Title} className="mt-3 py-2 px-4">
-            <Link href={item.see_more} className="font-bold" id="links">
-              {item.Title}
-            </Link>
-            <p className="italic">{item.Subject}</p>
-            <p className="italic">{item.Date}</p>
-          </div>
-        );
-      })}
-    </main>
-  );
-};
-export default LinksSection;
+
