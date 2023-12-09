@@ -9,7 +9,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
     <li
       ref={ref}
       className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col
-     justify-between"
+     justify-between "
     >
       <Lilcon reference={ref} />
       <motion.div
@@ -27,7 +27,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
             @{company}
           </a>
         </h3>
-        <span className="capitalize font-bold text-dark/75 dark:text-white italic">
+        <span className="capitalize font-bold text-dark/75 dark:text-white/75 italic">
           {time} | {address}
         </span>
         <p className="font-bold w-full text-dark dark:text-white">{work}</p>
@@ -53,7 +53,7 @@ const DetailsEducation = ({ type, time, provider, info }) => {
         <h3 className="capitalize font-bold text-2xl text-dark dark:text-white">
           {type}
         </h3>
-        <span className="capitalize font-bold text-dark/75 dark:text-white italic">
+        <span className="capitalize font-bold text-dark/75 dark:text-white/75 italic">
           {time} | {provider}
         </span>
         <p className="font-bold w-full text-dark dark:text-white">{info}</p>

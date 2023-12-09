@@ -14,7 +14,7 @@ const Article = ({ img, title, date, link, summary }) => {
   return (
     <li
       className="relative w-full p-4 py-6 my-4 rounded-xl flex items-center
-    justify-between bg-light text-white dark:text-white first:mt-0 border 
+    justify-between bg-light text-white dark:text-lightGray first:mt-0 border 
     border-solid  border-white dark:border-light  dark:opacity-80
      dark:bg-dark"
     >
@@ -58,12 +58,12 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
       <Link href={link} target="_blank">
         <h2
           className="capitalize text-2xl font-bold my-2 
-        hover:underline mt-4 text-white dark:text-white"
+        hover:underline mt-4 text-white dark:text-lightGray"
         >
           {title}
         </h2>
       </Link>
-      <p className="text-sm mb-2 text-white dark:text-white font-semibold">
+      <p className="text-sm mb-2 text-white dark:text-lightGray font-semibold">
         {summary}
       </p>
       <span className="text-lightGray dark:text-accentDark font-semibold">
@@ -82,7 +82,7 @@ const LinksPage = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
         <AnimatedText
           text="My Favourite Links - A Collection of Articles"
-          className="  text-white dark:text-white mb-10 mt-12"
+          className="  text-white dark:text-lightGray mb-10 mt-12"
         />
         <ul className="grid grid-cols-2 gap-16 ">
           <FeaturedArticle
@@ -103,7 +103,7 @@ const LinksPage = () => {
         </ul>
         <h2
           className="font-bold text-4xl w-full text-center my-16
-        mt-32 text-white dark:text-white"
+        mt-32 text-white dark:text-lightGray"
         >
           All Articles
         </h2>
