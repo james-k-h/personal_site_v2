@@ -21,6 +21,7 @@ const HeroSection = () => {
             </span>
             <br></br>
             <TypeAnimation
+              className="text-white dark:text-light mb-4 text-4xl sm:text-2xl lg:text-6xl lg:leading-normal font-extrabold"
               sequence={[
                 'Web Developer',
                 1000,
