@@ -24,7 +24,7 @@ const About = () => {
               alt="James"
               width={500}
               height={500}
-              className="rounded-3xl  border-white dark:border-light p-1 opacity-75 dark:bg-light
+              className="rounded-3xl  border-white dark:border-light p-1  dark:bg-light
                 bg-white"
             />
 
