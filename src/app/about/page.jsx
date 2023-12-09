@@ -11,25 +11,25 @@ import { Card, CardContent, Divider, Tooltip, Typography } from '@mui/material';
 const About = () => {
   return (
     <main className="flex min-h-screen flex-col about-bg bg-cover ">
-      <div className="container mt-12 mx-auto px-12 py-4 text-center">
+      <div className="container mt-12 mx-auto px-12 py-4 text-center mb-12">
         <h1 className=" text-white dark:text-light mb-4 text-2xl sm:text-3xl lg:text-4xl lg:leading-normal font-extrabold ">
           <span className=" bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600 opacity-75">
             A Little About Me...
           </span>
         </h1>
         <section className="text-white dark:text-light ">
-          <div className=" md:grid md:grid-cols-3 gap-8  py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+          <div className=" md:grid md:grid-cols-2 gap-4  py-8 px-4  sm:py-16 xl:gap-16">
             <Image
               src="/images/about/james_about_me.jpg"
               alt="James"
-              width={500}
-              height={500}
+              width={600}
+              height={600}
               className="rounded-3xl  border-white dark:border-light p-1  dark:bg-light
                 bg-white"
             />
 
             <div
-              className="mt-4 md:mt-0 col-span-2 text-left flex flex-col h-full border-2 rounded-3xl border-white dark:border-light p-4 opacity-75 dark:bg-dark
+              className="mt-4 md:mt-0  text-left flex flex-col h-full border-2 rounded-3xl border-white dark:border-light p-4 opacity-75 dark:bg-dark
             bg-light"
             >
               <p className="text-base lg:text-lg">
