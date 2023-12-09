@@ -53,7 +53,7 @@ const projectsData = [
     image: '/images/projects/java_platformer.png',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/james-k-h/java_platformer',
-    previewUrl: '/',
+    previewUrl: '',
   },
   {
     id: 6,

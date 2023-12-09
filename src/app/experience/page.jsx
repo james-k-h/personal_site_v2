@@ -27,10 +27,10 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
             @{company}
           </a>
         </h3>
-        <span className="capitalize font-medium text-dark/75 dark:text-white">
+        <span className="capitalize font-bold text-dark/75 dark:text-white italic">
           {time} | {address}
         </span>
-        <p className="font-medium w-full text-dark dark:text-white">{work}</p>
+        <p className="font-bold w-full text-dark dark:text-white">{work}</p>
       </motion.div>
     </li>
   );
@@ -53,10 +53,10 @@ const DetailsEducation = ({ type, time, provider, info }) => {
         <h3 className="capitalize font-bold text-2xl text-dark dark:text-white">
           {type}
         </h3>
-        <span className="capitalize font-medium text-dark/75 dark:text-white">
+        <span className="capitalize font-bold text-dark/75 dark:text-white italic">
           {time} | {provider}
         </span>
-        <p className="font-medium w-full text-dark dark:text-white">{info}</p>
+        <p className="font-bold w-full text-dark dark:text-white">{info}</p>
       </motion.div>
     </li>
   );
@@ -71,7 +71,7 @@ const Experience = () => {
 
   return (
     <div className="my-20">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center text-dark dark:text-white">
+      <h2 className="font-bold text-4xl mb-32 w-full text-center text-dark dark:text-white">
         Experience
       </h2>
 
@@ -86,7 +86,7 @@ const Experience = () => {
             type="Meta Back-End Developer Certification"
             time="November 2023"
             provider="Meta"
-            info="Server-side certification, focused on API development alongside version control, using Python and Django."
+            info="Server-side certification focused on API development alongside version control, using Python and Django."
           />{' '}
           <Details
             position="Manager - Supply Chain Systems"

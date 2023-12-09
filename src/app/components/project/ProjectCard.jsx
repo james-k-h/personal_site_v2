@@ -24,13 +24,15 @@ const ProjectCard = ({
           >
             <CodeBracketIcon className="h-10 w-10 text-light absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
           </Link>
-          <Link
-            href={previewUrl}
-            className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
-            target="_blank"
-          >
-            <EyeIcon className="h-10 w-10 text-light dark:text-light absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
-          </Link>
+          {previewUrl !== '' ? (
+            <Link
+              href={previewUrl}
+              className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+              target="_blank"
+            >
+              <EyeIcon className="h-10 w-10 text-light dark:text-light absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+            </Link>
+          ) : null}
         </div>
       </div>
       <div
@@ -42,7 +44,6 @@ const ProjectCard = ({
           <b>Stack:</b> {stack}
         </p>
         <p className=" text-white dark:text-light">{description}</p>
-
       </div>
     </div>
   );
