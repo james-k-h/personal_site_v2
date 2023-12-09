@@ -87,14 +87,15 @@ const LinksPage = () => {
         <ul className="grid grid-cols-2 gap-16 ">
           <FeaturedArticle
             title="Taking stock of the ongoing war in Israel and Gaza"
-            summary="asddf"
+            summary="After six days of a humanitarian pause at the end of November and the release of more than 100 hostages, fighting has resumed in Gaza and the Israeli offensive has expanded south toward Khan Yunis, Gaza’s second-largest city.
+            Natan Sachs reflects on the public mood, Israel’s operational goals, the ongoing threat of wider regional escalation, and what might come next."
             time="9 min read"
             link="https://www.brookings.edu/articles/taking-stock-of-the-ongoing-war-in-israel-and-gaza/"
             img={article_1}
           />
           <FeaturedArticle
             title="Propaganda, foreign interference, and generative AI"
-            summary="asddf"
+            summary="A broad, persistent, asymmetric competition is now underway between democracies and their authoritarian challengers, and the information and technology domains are critical theaters. Against this backdrop, recent advances in generative artificial intelligence (AI) have outpaced expectations, and risks that once seemed remote now appear immediate."
             time="7 min read"
             link="https://www.brookings.edu/articles/propaganda-foreign-interference-and-generative-ai/"
             img={article_2}
