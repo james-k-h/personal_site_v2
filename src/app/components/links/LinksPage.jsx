@@ -103,7 +103,7 @@ const LinksPage = () => {
         </ul>
         <h2
           className="font-bold text-4xl w-full text-center my-4
-        mt-12 text-white dark:text-lightGray"
+        mt-12 mb-4 text-white dark:text-lightGray"
         >
           All Articles
         </h2>
