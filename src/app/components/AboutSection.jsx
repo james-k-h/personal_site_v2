@@ -8,7 +8,7 @@ const AboutSection = () => {
       <div className=" md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/landing/james_grad.jpg"
-          width={500}
+          width={600}
           height={500}
           className="border-2 rounded-3xl border-white dark:border-light"
           alt="James"
