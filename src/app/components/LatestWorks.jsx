@@ -3,29 +3,6 @@ import React from 'react';
 import Slider from 'react-slick';
 
 import './index.css';
-import { Image } from 'next/image';
-
-const settings = {
-  dots: true,
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  speed: 1000,
-  autoplaySpeed: 3000,
-  cssEase: 'linear',
-};
-
-// const settings = {
-//   className: 'center',
-//   centerMode: true,
-//   infinite: true,
-//   // centerPadding: '60px',
-//   slidesToShow: 1,
-//   speed: 500,
-//   arrows: false,
-// };
-const header_font_size = { base: '10px', md: '12px', lg: '22px' };
 
 const LatestWorks = () => {
   const [slider, setSlider] = React.useState(null);
