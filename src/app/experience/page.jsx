@@ -111,7 +111,7 @@ const Experience = () => {
 
         <ul className=" w-full flex flex-col items-start justify-between ml-4 text-left">
           <DetailsEducation
-            type="IBM DevOps and Software Engineering"
+            type="DevOps and Software Engineering Certification"
             time="January 2024"
             provider="IBM"
             info="Essential DevOps skills and how to implement them as a SWE. Includes Microservice development (Docker, Kubernetes, OS),
@@ -119,7 +119,7 @@ const Experience = () => {
             url="https://coursera.org/share/5979e2a9bb5b3167eb93a753ddd51fca"
           />{' '}
           <DetailsEducation
-            type="Meta Back-End Developer Certification"
+            type="Back-End Developer Certification"
             time="November 2023"
             provider="Meta"
             info="Server-side certification focused on API development alongside version control, using Python and Django."
