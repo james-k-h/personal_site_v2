@@ -22,7 +22,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
           <a
             href={companyLink}
             target="_blank"
-            className="text-accentDark capitalize"
+            className="text-coralPink capitalize"
           >
             @{company}
           </a>
@@ -36,7 +36,35 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
   );
 };
 
-const DetailsEducation = ({ type, time, provider, info }) => {
+const DetailsEducation = ({ type, time, provider, info, url }) => {
+  const ref = useRef(null);
+  return (
+    <li
+      ref={ref}
+      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col
+       justify-between"
+    >
+      <Lilcon reference={ref} />
+      <motion.div
+        initial={{ y: 50 }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.5, type: 'spring' }}
+      >
+        <h3 className="capitalize font-bold text-2xl text-dark dark:text-white">
+          {type}&nbsp;
+          <a href={url} target="_blank" className="text-coralPink capitalize">
+            @{provider}
+          </a>
+        </h3>
+        <span className="capitalize font-bold text-dark/75 dark:text-white/75 italic">
+          {time}
+        </span>
+        <p className="font-bold w-full text-dark dark:text-white">{info}</p>
+      </motion.div>
+    </li>
+  );
+};
+const DetailsEducation2 = ({ type, time, provider, info }) => {
   const ref = useRef(null);
   return (
     <li
@@ -83,10 +111,19 @@ const Experience = () => {
 
         <ul className=" w-full flex flex-col items-start justify-between ml-4 text-left">
           <DetailsEducation
+            type="IBM DevOps and Software Engineering"
+            time="January 2024"
+            provider="IBM"
+            info="Essential DevOps skills and how to implement them as a SWE. Includes Microservice development,
+             CI/CD automation (Docker, Kubernetes, OS) and leveraging serverless technologies."
+            url="https://coursera.org/share/5979e2a9bb5b3167eb93a753ddd51fca"
+          />{' '}
+          <DetailsEducation
             type="Meta Back-End Developer Certification"
             time="November 2023"
             provider="Meta"
             info="Server-side certification focused on API development alongside version control, using Python and Django."
+            url="https://www.coursera.org/account/accomplishments/professional-cert/49EW6AM7WC7U"
           />{' '}
           <Details
             position="Manager - Supply Chain Systems"
@@ -102,12 +139,14 @@ const Experience = () => {
             provider="Web Age Solutions"
             info="Bootcamp spanning roughly 6 months; focused on skilling Loblaw employees into application programming. Involved Java, Spring Boot, JDBC,
             JavaScript and React."
+            url="https://www.credly.com/badges/a2394a10-8296-4a04-9881-1833bdca084c/print"
           />{' '}
           <DetailsEducation
             type="IT Automation with Python Certification"
             time="October 2022"
             provider="Google"
             info="Focused on critical automation skills for IT support and system administration tasks."
+            url="https://www.coursera.org/account/accomplishments/professional-cert/55U5X948MGUV"
           />{' '}
           <Details
             position="IT Specialist - PMO"
@@ -125,7 +164,7 @@ const Experience = () => {
             address="1 PCC, Brampton"
             work="Agile tooling. Reporting. End-user support and training."
           />{' '}
-          <DetailsEducation
+          <DetailsEducation2
             type="Honours Bachelor of Arts"
             time="December 2020"
             provider="University of Toronto"

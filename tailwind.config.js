@@ -21,7 +21,9 @@ module.exports = {
         teal: '#03f4fc',
         silver: '#C0C0C0',
         smoke: '#848884',
-        steelGrey: '#71797E'
+        steelGrey: '#71797E',
+        lime: '#32CD32',
+        coralPink: '#F88379',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -38,11 +40,6 @@ module.exports = {
         // @media (min-width: 480px){...}
       },
     },
-    // colors: {
-    //   ...colors,
-    //   primary: colors.purple,
-    //   secondary: colors.pink,
-    // },
   },
   plugins: [],
 };
