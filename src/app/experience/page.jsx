@@ -114,8 +114,8 @@ const Experience = () => {
             type="IBM DevOps and Software Engineering"
             time="January 2024"
             provider="IBM"
-            info="Essential DevOps skills and how to implement them as a SWE. Includes Microservice development,
-             CI/CD automation (Docker, Kubernetes, OS) and leveraging serverless technologies."
+            info="Essential DevOps skills and how to implement them as a SWE. Includes Microservice development (Docker, Kubernetes, OS),
+             CI/CD automation and leveraging serverless technologies."
             url="https://coursera.org/share/5979e2a9bb5b3167eb93a753ddd51fca"
           />{' '}
           <DetailsEducation
