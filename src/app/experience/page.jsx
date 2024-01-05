@@ -57,7 +57,7 @@ const DetailsEducation = ({ type, time, provider, info, url }) => {
           </a>
         </h3>
         <span className="capitalize font-bold text-dark/75 dark:text-white/75 italic">
-          {time}
+          Completed: {time}
         </span>
         <p className="font-bold w-full text-dark dark:text-white">{info}</p>
       </motion.div>
