@@ -142,7 +142,7 @@ const Experience = () => {
           />{' '}
           <DetailsEducation
             type="Full Stack Developer Program"
-            time="September 2022 - March 2023"
+            time="March 2023"
             provider="Web Age Solutions"
             info="Bootcamp spanning roughly 6 months; focused on skilling Loblaw employees into application programming. Involved Java, Spring Boot, JDBC,
             JavaScript and React."
