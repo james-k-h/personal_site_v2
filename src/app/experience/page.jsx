@@ -111,6 +111,14 @@ const Experience = () => {
 
         <ul className=" w-full flex flex-col items-start justify-between ml-4 text-left">
           <DetailsEducation
+            type="AWS Cloud Technology Consultant"
+            time="January 2024"
+            provider="AWS"
+            info="Applying AWS solutions to business goals and drivers, alongside being able to provide
+            technical direction and oversight to cloud implementation teams."
+            url="https://www.coursera.org/account/accomplishments/professional-cert/WJ5ZAZ3UM25J"
+          />{' '}
+          <DetailsEducation
             type="DevOps on AWS"
             time="January 2024"
             provider="AWS"
