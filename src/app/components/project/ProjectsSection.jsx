@@ -21,7 +21,7 @@ const projectsData = [
     title: 'Next Property Rental',
     description: 'Rent your property, or reserve one for yourself.',
     image: '/images/projects/next_property_rental.png',
-    tag: ['All', 'Web'],
+    tag: ['All', 'Web', 'Mobile'],
     gitUrl: 'https://github.com/james-k-h/next_property_rental',
     previewUrl: 'https://next-property-rental.vercel.app/',
   },
@@ -31,7 +31,7 @@ const projectsData = [
     title: 'My Blog',
     description: 'Sharing my thoughts, one post at a time.',
     image: '/images/projects/my_blog.png',
-    tag: ['All', 'Web'],
+    tag: ['All', 'Web', 'Mobile'],
     gitUrl: 'https://github.com/james-k-h/my_blog_',
     previewUrl: 'https://my-blog-bice-sigma.vercel.app/',
   },
@@ -41,7 +41,7 @@ const projectsData = [
     title: 'Job Search App',
     description: 'A web app solution to help organize your job search.',
     image: '/images/projects/job_search_stats.png',
-    tag: ['All', 'Web'],
+    tag: ['All', 'Web', 'Mobile'],
     gitUrl: 'https://github.com/james-k-h/mern_job_search/tree/main',
     previewUrl: 'https://job-search-d9xp.onrender.com',
   },
@@ -51,13 +51,13 @@ const projectsData = [
     title: 'Pirate Platformer',
     description: 'Traverse through various levels.',
     image: '/images/projects/java_platformer.png',
-    tag: ['All', 'Web'],
+    tag: ['All', 'Game'],
     gitUrl: 'https://github.com/james-k-h/java_platformer',
     previewUrl: '',
   },
   {
     id: 6,
-    stack: 'Next.js, TS, TailwindCSS',
+    stack: 'Next.js, TS, TailwindCSS, PlanetScale',
     title: 'Communities',
     description: 'Create and follow your favourite communities. ',
     image: '/images/projects/communities.png',
@@ -91,7 +91,7 @@ const projectsData = [
     title: 'Code Editor',
     description: 'Code on the fly. ',
     image: '/images/projects/code_editor.png',
-    tag: ['All', 'Web'],
+    tag: ['All', 'Web', 'Mobile'],
     gitUrl: 'https://github.com/james-k-h/code_editor',
     previewUrl: 'https://code-editor-ten-steel.vercel.app/',
   },
@@ -145,6 +145,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === 'Mobile'}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Game"
+          isSelected={tag === 'Game'}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
