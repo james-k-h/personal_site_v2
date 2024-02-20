@@ -126,7 +126,10 @@ const About = () => {
             {skills_description_array.map((item) => {
               return (
                 <div key={item.name}>
-                  <Card className="bg-tan dark:bg-light">
+                  <Card
+                    // class="test1"
+                    className="bg-tan dark:bg-light"
+                  >
                     <CardContent>
                       <Typography variant="h5" color="#474744">
                         {item.name}

@@ -61,7 +61,7 @@ const Navbar = () => {
 
       <nav
         className=" w-max py-3 px-6 sm:px-8 border border-solid border-dark rounded-full font-medium capitalize  items-center flex  sm:hidden
-        fixed top-6 right-1/2 translate-x-1/2 bg-light/80 backdrop-blur-sm z-50
+        fixed top-6 right-1/2 translate-x-1/2 bg-tan/80 backdrop-blur-sm z-50
         transition-all ease duration-300
         "
         style={{
@@ -107,8 +107,8 @@ const Navbar = () => {
       </nav>
 
       <nav
-        className=" w-max py-3 px-8 border border-solid border-light rounded-full font-medium capitalize  items-center hidden sm:flex
-        fixed top-6 right-1/2 translate-x-1/2 bg-dark/80 backdrop-blur-sm z-50 text-white opacity-70"
+        className=" w-max py-3 px-8 border border-solid bg-tan dark:bg-dark dark:text-light dark:border-light border-lightBlack rounded-full font-medium capitalize  items-center hidden sm:flex
+        fixed top-6 right-1/2 translate-x-1/2 bg-dark/80 backdrop-blur-sm z-50 text-lightBlack opacity-90"
       >
         <Link href="/" className="mr-2">
           Home
