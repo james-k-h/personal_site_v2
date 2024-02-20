@@ -121,7 +121,7 @@ const Experience = () => {
 
         <ul className=" w-full flex flex-col items-start justify-between ml-4 text-left">
           <DetailsEducation
-            type="AWS Cloud Technology Consultant"
+            type="AWS Cloud Technology Consultant Certification"
             time="January 2024"
             provider="AWS"
             info="Applying AWS solutions to business goals and drivers, alongside being able to provide
@@ -129,7 +129,7 @@ const Experience = () => {
             url="https://www.coursera.org/account/accomplishments/professional-cert/WJ5ZAZ3UM25J"
           />{' '}
           <DetailsEducation
-            type="DevOps on AWS"
+            type="DevOps on AWS Certification"
             time="January 2024"
             provider="AWS"
             info="Applying DevOps on AWS, from coding to monitoring and everything in between."
