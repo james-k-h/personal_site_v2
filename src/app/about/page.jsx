@@ -12,25 +12,25 @@ const About = () => {
   return (
     <main className="flex min-h-screen flex-col  bg-cover ">
       <div className="container mt-12 mx-auto px-12 py-4 text-center mb-12">
-        <h1 className=" text-white dark:text-light mb-4 text-2xl sm:text-3xl lg:text-4xl lg:leading-normal font-extrabold ">
-          <span className=" bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600 opacity-75">
+        <h1 className=" text-lightBlack dark:text-light mb-4 text-2xl sm:text-3xl lg:text-4xl lg:leading-normal font-extrabold ">
+          <span className=" bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
             A Little About Me...
           </span>
         </h1>
-        <section className="text-white dark:text-light ">
+        <section className="text-lightBlack dark:text-light ">
           <div className=" md:grid md:grid-cols-2 gap-4  py-8 px-4  sm:py-16 xl:gap-16">
             <Image
               src="/images/about/james_about_me.jpg"
               alt="James"
               width={600}
               height={600}
-              className="rounded-3xl  border-white dark:border-light p-1  dark:bg-light
-                bg-white"
+              className="rounded-3xl  border-lightBlack dark:border-light p-1  dark:bg-light
+                bg-lightBlack"
             />
 
             <div
-              className="mt-4 md:mt-0  text-left flex flex-col h-full border-2 rounded-3xl border-white dark:border-light p-4 opacity-75 dark:bg-dark
-            bg-light"
+              className="mt-4 md:mt-0  text-left flex flex-col h-full border-2 rounded-3xl border-lightBlack dark:border-light p-4  dark:bg-dark
+            bg-tan"
             >
               <p className="text-base lg:text-lg">
                 <b>Professionally</b>
@@ -71,10 +71,10 @@ const About = () => {
 
         {/* skills section */}
         <div
-          className="border-2 rounded-3xl border-white dark:border-light p-4 opacity-75 dark:bg-dark
-            bg-light justify-center items-center"
+          className="border-2 rounded-3xl border-lightBlack dark:border-light p-4  dark:bg-dark
+            bg-tan justify-center items-center"
         >
-          <p className="text-base lg:text-lg text-center text-white dark:text-light ">
+          <p className="text-base lg:text-lg text-center text-lightBlack dark:text-light ">
             <b>Programming Languages, Key Frameworks and Libraries</b>
           </p>
           <div className=" grid grid-cols-4 md:grid-cols-8 gap-8  py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ">
@@ -85,15 +85,15 @@ const About = () => {
                     <Image
                       src={item.src}
                       alt={item.label}
-                      className=" border-white dark:border-light p-2 opacity-75 dark:bg-gray
-                bg-white rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125"
+                      className=" border-lightBlack dark:border-light p-2 opacity-90 dark:bg-gray
+                bg-lightBlack rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125"
                     />
                   </Tooltip>
                 </div>
               );
             })}
           </div>
-          <p className="text-base lg:text-lg text-center text-white dark:text-light ">
+          <p className="text-base lg:text-lg text-center text-lightBlack dark:text-light ">
             <b>Tools and Platforms</b>
           </p>
           <div className=" grid grid-cols-4 md:grid-cols-8 gap-8  py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ">
@@ -105,8 +105,8 @@ const About = () => {
                       src={item.src}
                       alt={item.label}
                       // id="img_hover"
-                      className=" border-white dark:border-light p-2 opacity-75 dark:bg-gray
-                bg-white rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125"
+                      className=" border-lightBlack dark:border-light p-2 opacity-90 dark:bg-gray
+                bg-lightBlack rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125"
                     />
                   </Tooltip>
                 </div>
@@ -116,26 +116,26 @@ const About = () => {
         </div>
         {/* language overview */}
         <div
-          className="border-2 rounded-3xl border-white dark:border-light p-4 opacity-75 dark:bg-dark
-            bg-light justify-center items-center mt-10"
+          className="border-2 rounded-3xl border-lightBlack dark:border-light p-4 opacity-90 dark:bg-dark
+            bg-tan justify-center items-center mt-10"
         >
-          <p className="text-base lg:text-lg text-center text-white dark:text-light ">
+          <p className="text-base lg:text-lg text-center text-lightBlack dark:text-light ">
             <b>Programming Languages - Summary</b>
           </p>
           <div className=" grid grid-cols-1 md:grid-cols-2 gap-8  py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ">
             {skills_description_array.map((item) => {
               return (
                 <div key={item.name}>
-                  <Card id="test1">
+                  <Card className="bg-tan dark:bg-light">
                     <CardContent>
-                      <Typography variant="h5" color="#747474">
+                      <Typography variant="h5" color="#474744">
                         {item.name}
                       </Typography>
                       <Divider />
-                      <Typography color="#747474">
+                      <Typography color="#474744">
                         {item.frameworks_libraries}
                       </Typography>
-                      <Typography color="#747474">
+                      <Typography color="#474744">
                         {item.description}
                       </Typography>
                     </CardContent>

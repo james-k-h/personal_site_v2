@@ -77,7 +77,7 @@ const LatestWorks = () => {
   };
   return (
     <main className="py-12">
-      <h2 className=" text-center text-4xl font-bold  text-gray dark:text-dark mt-4 mb-8 md:mb-12 opacity-75">
+      <h2 className=" text-center text-4xl font-bold  text-lightBlack dark:text-dark mt-4 mb-8 md:mb-12 opacity-75">
         <span>Portfolio Projects</span>
       </h2>
       <div>
@@ -95,7 +95,7 @@ const LatestWorks = () => {
         <Slider {...settings} ref={(slider) => setSlider(slider)}>
           {cards.map((card, index) => (
             <div
-              className="p-4 py-4 text-white dark:text-lightGray text-center justify-center align-middle border-2 rounded-3xl border-white dark:border-lightGray  bg-light dark:bg-dark"
+              className="p-4 py-4 text-white dark:text-lightGray text-center justify-center align-middle border-2 rounded-3xl border-white dark:border-lightGray  bg-lightBlack dark:bg-dark"
               key={index}
               id="slides"
             >

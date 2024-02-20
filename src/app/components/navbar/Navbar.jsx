@@ -1,9 +1,6 @@
 'use client';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import NavLink from './NavLink';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
-import MenuOverlay from '../MenuOverlay';
 
 import { GithubIcon, LinkedinIcon, MoonIcon, SunIcon } from './../utils/Icons';
 import { useThemeSwitch } from './../hooks/useThemeSwitch';
@@ -11,24 +8,8 @@ import { cx } from '../utils/index';
 import Logo from './Logo';
 import siteMetadata from '../../components/utils/siteMetaData';
 
-const navLinks = [
-  {
-    title: 'About',
-    path: '#about',
-  },
-  {
-    title: 'Projects',
-    path: '#projects',
-  },
-  {
-    title: 'Contact',
-    path: '#contact',
-  },
-];
-
 const Navbar = () => {
   const [mode, setMode] = useThemeSwitch();
-  const [navbarOpen, setNavbarOpen] = useState(false);
   const [click, setClick] = useState(false);
 
   const toggle = () => {

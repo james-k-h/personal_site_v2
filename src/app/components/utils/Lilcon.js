@@ -14,7 +14,7 @@ const Lilcon = ({ reference }) => {
           cx="75"
           cy="50"
           r="20"
-          className="stroke-coralPink stroke-1 fill-none"
+          className="stroke-coralPink  dark:stroke-accentDark stroke-1 fill-none"
         />
         <motion.circle
           cx="75"
@@ -29,7 +29,7 @@ const Lilcon = ({ reference }) => {
           cx="75"
           cy="50"
           r="10"
-          className="animate-pulse stroke-1 fill-coralPink"
+          className="animate-pulse stroke-1 fill-coralPink  dark:fill-accentDark"
         />
       </svg>
     </figure>

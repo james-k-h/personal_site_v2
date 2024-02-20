@@ -15,13 +15,13 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className=" text-white dark:text-light mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className=" text-lightBlack dark:text-light mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className=" bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m James
             </span>
             <br></br>
             <TypeAnimation
-              className="text-white dark:text-light mb-4 text-4xl sm:text-2xl lg:text-6xl lg:leading-normal font-extrabold"
+              className="text-lightBlack dark:text-light mb-4 text-4xl sm:text-2xl lg:text-6xl lg:leading-normal font-extrabold"
               sequence={[
                 'Web Developer',
                 1000,
@@ -37,7 +37,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className=" text-white dark:text-light text-base sm:text-lg mb-6 lg:text-xl">
+          <p className=" text-black dark:text-light text-base sm:text-lg mb-6 lg:text-xl">
             A self-taught IT professional, focused on web development and cloud
             native applications.
           </p>
@@ -48,7 +48,7 @@ const HeroSection = () => {
               target="_blank"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 text-white mt-3"
             >
-              <span className="opacity-80 inline-block py-2 sm:py-3 px-6 sm:px-10  bg-white dark:bg-light dark:text-white text-light rounded-full capitalize font-semibold border-2 border-solid border-light dark:border-white hover:scale-105 transition-all ease duration-200 text-sm sm:text-base">
+              <span className="opacity-80 inline-block py-2 sm:py-3 px-6 sm:px-10  bg-lightBlack dark:bg-light dark:text-white text-white rounded-full capitalize font-semibold border-2 border-solid border-white dark:border-white hover:scale-105 transition-all ease duration-200 text-sm sm:text-base">
                 Download Resume
               </span>
             </Link>
@@ -60,7 +60,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-white dark:bg-light w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-lightBlack dark:bg-light w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/about/james.jpg"
               alt="hero image"

@@ -36,14 +36,14 @@ const ProjectCard = ({
         </div>
       </div>
       <div
-        className=" text-white dark:text-light rounded-b-xl mt-3 py-6 px-4 border-2  border-white dark:border-light p-4 opacity-75
-        bg-light dark:bg-dark"
+        className=" text-lightBlack dark:text-light rounded-b-xl mt-3 py-6 px-4 border-2  border-lightBlack dark:border-light p-4 opacity-90
+        bg-tan dark:bg-dark"
       >
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
-        <p className=" text-white dark:text-light">
+        <p className=" text-lightBlack dark:text-light">
           <b>Stack:</b> {stack}
         </p>
-        <p className=" text-white dark:text-light">{description}</p>
+        <p className=" text-lightBlack dark:text-light">{description}</p>
       </div>
     </div>
   );

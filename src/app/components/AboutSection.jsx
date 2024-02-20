@@ -4,20 +4,20 @@ import Image from 'next/image';
 
 const AboutSection = () => {
   return (
-    <section className=" text-white dark:text-lightGray" id="about">
+    <section className=" text-lightBlack dark:text-lightGray" id="about">
       <div className=" md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/landing/james_grad.jpg"
           width={600}
           height={500}
-          className="border-2 rounded-3xl border-white dark:border-light"
+          className="border-2 rounded-3xl border-lightBlack dark:border-light"
           alt="James"
         />
         <div
-          className="mt-4 md:mt-0 text-left flex flex-col h-full border-2 rounded-3xl border-white dark:border-light p-4 opacity-75
-        bg-light dark:bg-dark"
+          className="opacity-90 mt-4 md:mt-0 text-left flex flex-col h-full border-2 rounded-3xl border-lightBlack dark:border-light p-4 
+        bg-tan dark:bg-dark"
         >
-          <h2 className="text-4xl font-bold  text-white dark:text-lightGray mb-4">
+          <h2 className="text-4xl font-bold  text-lightBlack dark:text-lightGray mb-4">
             About Me
           </h2>
           <p className="text-base lg:text-lg">

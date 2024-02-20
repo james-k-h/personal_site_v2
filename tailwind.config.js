@@ -24,6 +24,11 @@ module.exports = {
         steelGrey: '#71797E',
         lime: '#32CD32',
         coralPink: '#F88379',
+        lightGreen: ' #DAF7A6 ',
+        tan: '#f5ece3',
+        almond: '#EFDECD',
+        // lightBlack: '#343432',
+        lightBlack: '#474744',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
