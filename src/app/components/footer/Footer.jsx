@@ -32,12 +32,12 @@ const Footer = () => {
 
       <div className="w-full  mt-4 md:mt-8 relative font-medium border-t border-solid border-lightBlack dark:border-light py-6 px-8 flex  flex-col md:flex-row items-center justify-between">
         <span className="text-center">&copy;2023 JKH</span>
-        <Link
+        {/* <Link
           href="/sitemap.xml"
           className="text-center underline my-4 md:my-0"
         >
           sitemap.xml
-        </Link>
+        </Link> */}
       </div>
     </footer>
   );
