@@ -6,7 +6,7 @@ import siteMetadata from '../utils/siteMetaData';
 
 const Footer = () => {
   return (
-    <footer className="w-full p-4 px-5 bg-tan/90  dark:bg-dark  flex flex-col items-center text-lightBlack dark:text-light">
+    <footer className="w-full p-2 px-5 bg-tan/90  dark:bg-dark  flex flex-col items-center text-lightBlack dark:text-light">
       <h4 className=" font-bold text-center capitalize text-1xl sm:text-2xl lg:text-1xl px-2">
         Connect with me
       </h4>
@@ -30,7 +30,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="w-full  mt-4 md:mt-8 relative font-medium border-t border-solid border-lightBlack dark:border-light py-6 px-8 flex  flex-col md:flex-row items-center justify-between">
+      <div className="w-full  mt-4 md:mt-8 relative font-medium border-t border-solid border-lightBlack dark:border-light py-2 px-8 flex  flex-col md:flex-row items-center justify-between">
         <span className="text-center">&copy;2023 JKH</span>
         {/* <Link
           href="/sitemap.xml"
