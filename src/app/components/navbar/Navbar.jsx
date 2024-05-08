@@ -2,7 +2,13 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 
-import { GithubIcon, LinkedinIcon, MoonIcon, SunIcon } from './../utils/Icons';
+import {
+  GithubIcon,
+  LinkedinIcon,
+  MoonIcon,
+  SunIcon,
+  TwitterIcon,
+} from './../utils/Icons';
 import { useThemeSwitch } from './../hooks/useThemeSwitch';
 import { cx } from '../utils/index';
 import Logo from './Logo';
@@ -18,7 +24,7 @@ const Navbar = () => {
 
   return (
     <header className="w-full p-4  px-5 sm:px-10 flex items-center justify-between">
-      <Logo />
+      <Logo className="dark:bg-light" />
 
       <button
         className="inline-block sm:hidden z-50"
@@ -154,7 +160,7 @@ const Navbar = () => {
           aria-label="Reach out to me via LinkedIn"
           target="_blank"
         >
-          <LinkedinIcon className="hover:scale-125 transition-all ease duration-200" />
+          <LinkedinIcon className="hover:scale-125 transition-all ease duration-200 dark:fill-light fill-white" />
         </a>
         <a
           href={siteMetadata.github}

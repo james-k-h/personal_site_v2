@@ -22,7 +22,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
           <a
             href={companyLink}
             target="_blank"
-            className="text-coralPink dark:text-accentDark capitalize"
+            className="text-coralPink dark:text-accentDark capitalize hover:italic transition-all ease duration-200"
           >
             @{company}
           </a>
@@ -57,12 +57,12 @@ const DetailsEducation = ({ type, time, provider, info, url }) => {
           <a
             href={url}
             target="_blank"
-            className="text-coralPink  dark:text-accentDark capitalize"
+            className="text-coralPink  dark:text-accentDark capitalize hover:italic transition-all ease duration-200"
           >
             @{provider}
           </a>
         </h3>
-        <span className="capitalize font-bold text-lightBlack/75 dark:text-white/75 italic">
+        <span className="capitalize font-bold text-lightBlack/75 dark:text-white/75 italic ">
           Completed: {time}
         </span>
         <p className="font-bold w-full text-lightBlack dark:text-white">

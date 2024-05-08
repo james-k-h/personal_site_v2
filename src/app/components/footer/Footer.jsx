@@ -18,7 +18,7 @@ const Footer = () => {
           aria-label="Reach out to me via LinkedIn"
           target="_blank"
         >
-          <LinkedinIcon className="hover:scale-125 transition-all ease duration-200" />
+          <LinkedinIcon className="dark:fill-light fill-white hover:scale-125 transition-all ease duration-200" />
         </a>
         <a
           href={siteMetadata.github}
