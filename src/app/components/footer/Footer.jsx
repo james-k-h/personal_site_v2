@@ -1,8 +1,8 @@
 'use client';
 import React from 'react';
-import { GithubIcon, LinkedinIcon } from '../utils/Icons';
+import { GithubIcon, LinkedinIcon } from '../../utils/Icons';
 import Link from 'next/link';
-import siteMetadata from '../utils/siteMetaData';
+import siteMetadata from '../../utils/siteMetaData';
 
 const Footer = () => {
   return (

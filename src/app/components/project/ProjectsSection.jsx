@@ -13,7 +13,7 @@ const projectsData = [
     image: '/images/projects/personal_site.png',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/james-k-h/personal_site_v2',
-    previewUrl: 'https://jkh-personal.vercel.app/',
+    previewUrl: 'https://jkhoward.vercel.app/',
   },
   {
     id: 2,
