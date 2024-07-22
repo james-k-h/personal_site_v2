@@ -37,13 +37,13 @@ const projectsData = [
   },
   {
     id: 4,
-    stack: 'Mongo, Express, Next.js, Node',
-    title: 'Job Search App',
-    description: 'A web app solution to help organize your job search.',
-    image: '/images/projects/job_search_stats.png',
+    stack: 'JavaScript, React, Next.js',
+    title: 'Bayview Eatery',
+    description: 'The best local eats. ',
+    image: '/images/projects/bayview_eatery.png',
     tag: ['All', 'Web', 'Mobile'],
-    gitUrl: 'https://github.com/james-k-h/mern_job_search/tree/main',
-    previewUrl: 'https://job-search-d9xp.onrender.com',
+    gitUrl: 'https://github.com/james-k-h/restaurant',
+    previewUrl: 'https://bayview-eatery.vercel.app',
   },
   {
     id: 5,
@@ -97,6 +97,16 @@ const projectsData = [
   },
   {
     id: 10,
+    stack: 'Mongo, Express, Next.js, Node',
+    title: 'Job Search App',
+    description: 'A web app solution to help organize your job search.',
+    image: '/images/projects/job_search_stats.png',
+    tag: ['All', 'Web', 'Mobile'],
+    gitUrl: 'https://github.com/james-k-h/mern_job_search/tree/main',
+    previewUrl: 'https://job-search-d9xp.onrender.com',
+  },
+  {
+    id: 11,
     stack: 'React-Native, Redux, Firebase',
     title: 'Animal Encyclopedia',
     description: 'Handy animal fact guidebook.',
@@ -130,6 +140,10 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold  text-lightBlack dark:text-light mt-4 mb-8 md:mb-12">
         Featured Projects
       </h2>
+      <p className="text-center font-semibold text-lightBlack dark:text-light">
+        Hover to visit the source code repository and the live-hosted site, if
+        applicable.
+      </p>
       <div className="grid grid-cols-2 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4  text-lightBlack dark:text-light  flex-row justify-center items-center gap-3 py-6 ">
         <ProjectTag
           onClick={handleTagChange}

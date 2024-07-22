@@ -18,6 +18,13 @@ const LatestWorks = () => {
       click: '/projects/mern_dash',
     },
     {
+      title: 'Bayview Eatery',
+      text: 'The best local eats',
+      image: '/images/projects/bayview_eatery.png',
+      color: 'whiteAlpha.800',
+      click: '/projects/bayview_eatery',
+    },
+    {
       title: 'My Blog',
       text: 'My thoughts....',
       image: '/images/projects/my_blog.png',
