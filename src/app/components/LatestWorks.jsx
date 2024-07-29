@@ -3,6 +3,7 @@ import React from 'react';
 import Slider from 'react-slick';
 
 import './index.css';
+import Link from 'next/link';
 
 const LatestWorks = () => {
   const [slider, setSlider] = React.useState(null);
@@ -79,7 +80,7 @@ const LatestWorks = () => {
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 6000,
     cssEase: 'linear',
   };
   return (
@@ -106,7 +107,9 @@ const LatestWorks = () => {
               key={index}
               id="slides"
             >
-              <img src={card.image} alt={card.title} id="img_card" />
+              <Link href="/projects" className="">
+                <img src={card.image} alt={card.title} id="img_card" />
+              </Link>
               {/* <p>{card.title}</p> */}
             </div>
           ))}
