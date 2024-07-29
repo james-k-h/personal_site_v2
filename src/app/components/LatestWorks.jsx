@@ -75,7 +75,7 @@ const LatestWorks = () => {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
@@ -102,11 +102,11 @@ const LatestWorks = () => {
         <Slider {...settings} ref={(slider) => setSlider(slider)}>
           {cards.map((card, index) => (
             <div
-              className="p-4 py-4 text-white dark:text-lightGray text-center justify-center align-middle border-2 rounded-3xl border-white dark:border-lightGray  bg-lightBlack dark:bg-dark"
+              className="p-4 py-4 pb-2 text-white dark:text-lightGray text-center justify-center align-middle border-2 rounded-3xl border-white dark:border-lightGray  bg-lightBlack dark:bg-dark"
               key={index}
               id="slides"
             >
-              <img src={card.image} alt={card.title} />
+              <img src={card.image} alt={card.title} id="img_card" />
               {/* <p>{card.title}</p> */}
             </div>
           ))}

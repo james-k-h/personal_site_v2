@@ -1,11 +1,12 @@
 'use client';
 import React, { useTransition, useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const AboutSection = () => {
   return (
     <section className=" text-lightBlack dark:text-lightGray" id="about">
-      <div className=" md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className=" grid lg:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/landing/james_grad.jpg"
           width={600}
@@ -27,8 +28,15 @@ const AboutSection = () => {
             <br />
             <br />
             Another area of interest would be working cross-functionally to
-            solve real world business problems, from an IT perspective. To learn
-            more, visit the About section.
+            solve real world business problems, from an IT perspective.
+            <br />
+            <br />
+            Personally, I have a wide array of interests ranging from
+            international political relations to football to European history
+            and everything in between. To learn more about me, visit the{' '}
+            <Link href="/about" className="hover:font-semibold">
+              About section.
+            </Link>
           </p>
         </div>
       </div>

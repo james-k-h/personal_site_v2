@@ -20,13 +20,22 @@
   } */
 
 #img_card {
-  max-height: 500px;
-  max-width: 500px;
+  /* max-height: 500px;
+  max-width: 500px; */
+  margin-bottom: 2px;
+  /* max-height: 95%; */
 }
 .slick-track {
   display: flex !important;
 }
 
 #slides {
-  height: 18vw;
+  height: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
