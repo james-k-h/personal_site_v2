@@ -102,7 +102,7 @@ const LatestWorks = () => {
         <Slider {...settings} ref={(slider) => setSlider(slider)}>
           {cards.map((card, index) => (
             <div
-              className="p-4 py-4 pb-2 text-white dark:text-lightGray text-center justify-center align-middle border-2 rounded-3xl border-white dark:border-lightGray  bg-lightBlack dark:bg-dark"
+              className="px-2 py-2 pb-2 text-white dark:text-lightGray text-center justify-center align-middle border-8 rounded-3xl border-lightBlack dark:border-dark  bg-lightBlack dark:bg-dark"
               key={index}
               id="slides"
             >

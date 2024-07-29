@@ -19,19 +19,18 @@
     background-color: black;
   } */
 
-#img_card {
-  /* max-height: 500px;
-  max-width: 500px; */
-  margin-bottom: 2px;
-  /* max-height: 95%; */
-}
+/* #img_card {
+  max-height: 500px;
+  max-width: 500px;
+
+} */
 .slick-track {
   display: flex !important;
 }
 
 #slides {
   height: 40vw;
-  display: flex;
+  display: contain;
   justify-content: center;
   align-items: center;
   overflow: hidden;
