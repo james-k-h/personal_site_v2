@@ -34,8 +34,12 @@ const About = () => {
             />
 
             <div
-              className="mt-4 md:mt-0  xl:mt-10 text-left flex flex-col h-relative border-2 rounded-3xl border-lightBlack dark:border-light p-4  dark:bg-dark
-            bg-tan "
+              //   className="mt-4 md:mt-0  xl:mt-10 text-center flex flex-col h-relative  rounded-3xl  p-4
+              //    border-lightBlack dark:border-light dark:bg-dark bg-tan border-2
+              // "
+              className="mt-4 md:mt-0  xl:mt-10 text-center flex flex-col h-relative  rounded-3xl  p-4 
+           
+         "
             >
               <p className="lg:text-lg md:text-sm 2xl:text-xl ">
                 <b>Professionally</b>
@@ -52,12 +56,14 @@ const About = () => {
                 <br />
                 <b>Personally</b>
                 <br />
-                <br />I have a broad array of interests, some of which include:
-                programming, history (predominantly European), global political
-                economy and international relations, traveling, long distance
-                running and skiing. Programming is the newest addition to the
-                roster and is something I have picked up approximately a year
-                ago, but it has quickly become a passion of mine.
+                <br />
+                My interests span across a number of different areas, some of
+                which include: programming, history (predominantly European),
+                global political economy and international relations, traveling,
+                long distance running and skiing. Programming is the newest
+                addition to the roster and is something I picked up
+                approximately 2 years ago, but it has quickly become a passion
+                of mine.
                 <br />
                 <br />
                 <b>Why Programming?</b>
