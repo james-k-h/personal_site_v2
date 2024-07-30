@@ -10,7 +10,7 @@ import { Card, CardContent, Divider, Tooltip, Typography } from '@mui/material';
 
 const About = () => {
   return (
-    <main className="flex min-h-screen flex-col  bg-cover ">
+    <main className="flex min-h-screen flex-col  ">
       <div className="container mt-12 mx-auto px-12 py-4 text-center mb-12">
         <h1 className=" text-lightBlack dark:text-light mb-4 text-2xl sm:text-3xl lg:text-4xl lg:leading-normal font-extrabold ">
           <span className=" bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
@@ -18,14 +18,14 @@ const About = () => {
           </span>
         </h1>
         <section className="text-lightBlack dark:text-light ">
-          <div className=" md:grid md:grid-cols-2 gap-4  py-8 px-4  sm:py-16 xl:gap-16">
+          <div className="justify-center items-center grid xl:grid-cols-2 gap-4  py-8 px-4  sm:py-16">
             <Image
               src="/images/about/james_about_me.jpg"
               alt="James"
               width={600}
               height={600}
               className="rounded-3xl  border-lightBlack dark:border-light p-1  dark:bg-light
-                bg-lightBlack"
+                bg-lightBlack "
             />
 
             <div
