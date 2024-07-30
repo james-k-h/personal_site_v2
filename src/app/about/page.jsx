@@ -18,21 +18,26 @@ const About = () => {
           </span>
         </h1>
         <section className="text-lightBlack dark:text-light ">
-          <div className="justify-center items-center grid xl:grid-cols-2 gap-4  py-8 px-4  sm:py-16">
+          <div className="justify-center items-center grid xl:grid-cols-2 gap-4  py-4 px-4  sm:py-16">
             <Image
               src="/images/about/james_about_me.jpg"
               alt="James"
               width={600}
               height={600}
+              sizes="40vw"
+              style={{
+                width: '100%',
+                height: 'auto',
+              }}
               className="rounded-3xl  border-lightBlack dark:border-light p-1  dark:bg-light
                 bg-lightBlack "
             />
 
             <div
-              className="mt-4 md:mt-0  text-left flex flex-col h-full border-2 rounded-3xl border-lightBlack dark:border-light p-4  dark:bg-dark
-            bg-tan"
+              className="mt-4 md:mt-0  xl:mt-10 text-left flex flex-col h-relative border-2 rounded-3xl border-lightBlack dark:border-light p-4  dark:bg-dark
+            bg-tan "
             >
-              <p className="text-base lg:text-lg">
+              <p className="lg:text-lg md:text-sm 2xl:text-xl ">
                 <b>Professionally</b>
                 <br />
                 <br />
@@ -62,8 +67,8 @@ const About = () => {
                 think, regardless of the trajectory of my career, it is an
                 invaluable skill to have and allows for a multitude of
                 opportunities; by virtue of learning these skills you inevitably
-                become more digitally literate. Plus, without it I could not
-                have built this site!
+                become more digitally literate. Plus, without it I wouldn&apos;t
+                have been able to build this site!
               </p>
             </div>
           </div>
