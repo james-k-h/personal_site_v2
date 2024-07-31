@@ -35,7 +35,7 @@ const About = () => {
               }}
               className="rounded-3xl  border-lightBlack dark:border-light p-1  dark:bg-light
                 bg-lightBlack 
-          md:hidden
+          sm:hidden
           xl:flex
                 "
             />
