@@ -18,19 +18,26 @@ const About = () => {
           </span>
         </h1>
         <section className="text-lightBlack dark:text-light ">
-          <div className="justify-center items-center grid xl:grid-cols-2 gap-4  py-4 px-4  sm:py-16">
+          <div
+            className="justify-center items-center grid 
+          xl:grid-cols-2 
+          gap-4  py-4 px-4  sm:py-16"
+          >
             <Image
               src="/images/about/james_about_me.jpg"
               alt="James"
               width={600}
               height={600}
-              sizes="40vw"
+              sizes="20vw"
               style={{
                 width: '100%',
-                height: 'auto',
+                height: 'auto ',
               }}
               className="rounded-3xl  border-lightBlack dark:border-light p-1  dark:bg-light
-                bg-lightBlack "
+                bg-lightBlack 
+          md:hidden
+          xl:flex
+                "
             />
 
             <div
@@ -38,7 +45,7 @@ const About = () => {
               //    border-lightBlack dark:border-light dark:bg-dark bg-tan border-2
               // "
               className="mt-4 md:mt-0  xl:mt-10 text-center flex flex-col h-relative  rounded-3xl  p-4 
-           
+        
          "
             >
               <p className="lg:text-lg md:text-sm 2xl:text-xl ">
