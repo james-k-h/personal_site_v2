@@ -23,11 +23,11 @@ const Navbar = () => {
   };
 
   return (
-    <header className="w-full p-4  px-5 sm:px-10 flex items-center justify-between">
-      <Logo className="dark:bg-light" />
+    <header className="w-full p-4  px-5 sm:px-10 flex items-center justify-between   ">
+      <Logo className="dark:bg-light sm:hidden " />
 
       <button
-        className="inline-block sm:hidden z-50"
+        className="inline-block sm:hidden z-500"
         onClick={toggle}
         aria-label="Hamburger Menu"
       >
@@ -64,11 +64,13 @@ const Navbar = () => {
           </div>
         </div>
       </button>
-
+      {/* mobile */}
       <nav
-        className=" w-max py-3 px-6 sm:px-8 border border-solid border-dark rounded-full font-medium capitalize  items-center flex  sm:hidden
+        className=" w-max py-3 xs:mt-0 mt-4 px-6 sm:px-8 border border-solid border-dark rounded-full font-medium capitalize  items-center   sm:hidden
         fixed top-6 right-1/2 translate-x-1/2 backdrop-blur-sm z-50  bg-tan/80 dark:bg-dark dark:text-light dark:border-light
         transition-all ease duration-300
+        flex
+   
         "
         style={{
           top: click ? '1rem' : '-5rem',
