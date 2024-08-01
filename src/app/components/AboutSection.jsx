@@ -27,8 +27,8 @@ const AboutSection = () => {
             practices with a focus on JavaScript.
             <br />
             <br />
-            Another area of interest would be working cross-functionally to
-            solve real world business problems, from an IT perspective.
+            Another area of focus would be working cross-functionally to solve
+            real world business problems, from an IT perspective.
             <br />
             <br />
             Personally, I have a wide array of interests ranging from
