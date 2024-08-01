@@ -120,6 +120,15 @@ const Experience = () => {
         />
 
         <ul className=" w-full flex flex-col items-start justify-between ml-4 text-left">
+          <Details
+            position="Manager - Supply Chain Systems: Strategic Initiatives"
+            company="Loblaw Companies LTD"
+            companyLink="https://www.loblaw.ca/"
+            time="July 2024 - Present"
+            address="1 PCC, Brampton"
+            work="Release and Change management, New Features and Program projects alongside other key efforts for the continued adoption 
+            of a Cloud-Native WMS solution across the Loblaw distribution network."
+          />{' '}
           <DetailsEducation
             type="AWS Cloud Technology Consultant Certification"
             time="January 2024"
@@ -151,12 +160,13 @@ const Experience = () => {
             url="https://www.coursera.org/account/accomplishments/professional-cert/49EW6AM7WC7U"
           />{' '}
           <Details
-            position="Manager - Supply Chain Systems"
+            position="Manager - Supply Chain Systems: Production Support"
             company="Loblaw Companies LTD"
             companyLink="https://www.loblaw.ca/"
-            time="June 2023 - Present"
+            time="June 2023 - June 2024"
             address="1 PCC, Brampton"
-            work="Warehouse Management, part of a program team responsible for rolling out and supporting a Cloud-Native WMS Application for Loblaw and Shoppers Distribution Centers."
+            work="Warehouse Management, part of a program team responsible for rolling out and supporting a Cloud-Native WMS Application for Loblaw and Shoppers Distribution Centers.
+            Post conversion, owned the Support, Release and Change Management for multiple Distribution Centers spanning across Canada."
           />{' '}
           <DetailsEducation
             type="Full Stack Developer Program"

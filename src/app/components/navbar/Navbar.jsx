@@ -27,7 +27,7 @@ const Navbar = () => {
       <Logo className="dark:bg-light sm:hidden " />
 
       <button
-        className="inline-block sm:hidden z-500"
+        className="inline-block lg:hidden z-500"
         onClick={toggle}
         aria-label="Hamburger Menu"
       >
@@ -64,9 +64,9 @@ const Navbar = () => {
           </div>
         </div>
       </button>
-      {/* mobile */}
+      {/* mobile - hides under lg, use 2nd instance below */}
       <nav
-        className=" w-max py-3 xs:mt-0 mt-4 px-6 sm:px-8 border border-solid border-dark rounded-full font-medium capitalize  items-center   sm:hidden
+        className=" w-max py-3 xs:mt-0 mt-4 px-6 sm:px-8 border border-solid border-dark rounded-full font-medium capitalize  items-center   lg:hidden
         fixed top-6 right-1/2 translate-x-1/2 backdrop-blur-sm z-50  bg-tan/80 dark:bg-dark dark:text-light dark:border-light
         transition-all ease duration-300
         flex
@@ -115,7 +115,7 @@ const Navbar = () => {
       </nav>
 
       <nav
-        className=" w-max py-3 px-8 border border-solid bg-tan dark:bg-dark dark:text-light dark:border-light border-lightBlack rounded-full font-medium capitalize  items-center hidden sm:flex
+        className=" w-max py-3 px-8 border border-solid bg-tan dark:bg-dark dark:text-light dark:border-light border-lightBlack rounded-full font-medium capitalize  items-center hidden lg:flex
         fixed top-6 right-1/2 translate-x-1/2 bg-dark/80 backdrop-blur-sm z-50 text-lightBlack opacity-90"
       >
         <Link href="/" className="mr-2">
@@ -155,7 +155,7 @@ const Navbar = () => {
           )}
         </button>
       </nav>
-      <div className=" hidden sm:flex items-center">
+      <div className=" hidden lg:flex items-center">
         <a
           href={siteMetadata.linkedin}
           className="inline-block w-6 h-6 mr-4"

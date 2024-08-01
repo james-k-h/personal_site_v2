@@ -168,7 +168,7 @@ const ProjectsSection = () => {
       </div>
       <ul
         ref={ref}
-        className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 md:gap-12"
+        className="grid lg:grid-cols-2 md:grid-cols-1 gap-8 md:gap-12"
       >
         {filteredProjects.map((project, index) => (
           <motion.li

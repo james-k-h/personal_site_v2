@@ -11,10 +11,16 @@ const ProjectCard = ({
   stack,
 }) => {
   return (
-    <div>
+    <div className="">
       <div
-        className="h-52 md:h-72 rounded-t-xl relative group"
-        style={{ background: `url(${imgUrl})`, backgroundSize: 'cover' }}
+        className="h-52 md:h-72 rounded-t-xl relative group  border-lightBlack dark:border-light"
+        style={{
+          background: `url(${imgUrl})`,
+          backgroundSize: 'cover',
+          borderWidth: '2px',
+          border: 'lightBlack',
+          // border: 'dark:border-light',
+        }}
       >
         <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-dark bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
           <Link
@@ -36,14 +42,18 @@ const ProjectCard = ({
         </div>
       </div>
       <div
-        className=" text-lightBlack dark:text-light rounded-b-xl mt-3 py-6 px-4 border-2  border-lightBlack dark:border-light p-4 opacity-90
+        className=" text-lightBlack dark:text-light rounded-b-xl 
+      
+        px-4 border-2  border-lightBlack dark:border-light p-4 opacity-90
         bg-tan dark:bg-dark"
       >
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
         <p className=" text-lightBlack dark:text-light">
           <b>Stack:</b> {stack}
         </p>
-        <p className=" text-lightBlack dark:text-light">{description}</p>
+        <p className=" text-coralPink font-semibold dark:text-accentDark">
+          {description}
+        </p>
       </div>
     </div>
   );
