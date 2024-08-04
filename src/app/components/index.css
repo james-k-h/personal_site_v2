@@ -29,8 +29,8 @@
 }
 
 #slides {
-  height: 40vw;
-  display: contain;
+  /* height: 40vw; */
+  display: fill;
   justify-content: center;
   align-items: center;
   overflow: hidden;

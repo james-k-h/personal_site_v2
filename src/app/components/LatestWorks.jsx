@@ -79,9 +79,9 @@ const LatestWorks = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
+    speed: 100,
     autoplaySpeed: 6000,
-    cssEase: 'linear',
+    // cssEase: 'linear',
   };
   return (
     <main className="py-12">

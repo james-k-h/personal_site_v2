@@ -121,7 +121,7 @@ const Experience = () => {
 
         <ul className=" w-full flex flex-col items-start justify-between ml-4 text-left">
           <Details
-            position="Manager - Supply Chain Systems: Strategic Initiatives"
+            position="Manager - Supply Chain Technology: Strategic Initiatives"
             company="Loblaw Companies LTD"
             companyLink="https://www.loblaw.ca/"
             time="July 2024 - Present"
@@ -160,7 +160,7 @@ const Experience = () => {
             url="https://www.coursera.org/account/accomplishments/professional-cert/49EW6AM7WC7U"
           />{' '}
           <Details
-            position="Manager - Supply Chain Systems: Production Support"
+            position="Manager - Supply Chain Technology: Production Support"
             company="Loblaw Companies LTD"
             companyLink="https://www.loblaw.ca/"
             time="June 2023 - June 2024"
