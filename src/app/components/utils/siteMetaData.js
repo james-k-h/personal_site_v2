@@ -3,6 +3,7 @@ const siteMetadata = {
   author: 'James K Howard',
   headerTitle: 'James K Howard - Portfolio',
   description: 'James K Howard: Portfolio Site',
+  content: 'Portfolio site, showcasing my latest works accompanied with a bio.',
   language: 'en-us',
   theme: 'system',
   siteUrl: 'https://jkhoward.vercel.app',

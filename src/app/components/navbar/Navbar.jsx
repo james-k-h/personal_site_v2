@@ -24,6 +24,7 @@ const Navbar = () => {
 
   return (
     <header className="w-full p-4  px-5 sm:px-10 flex items-center justify-between   ">
+      <link rel="canonical" href="https://jkhoward.vercel.app/" />
       <Logo className="dark:bg-light sm:hidden " />
 
       <button

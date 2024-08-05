@@ -137,9 +137,9 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center text-4xl font-bold  text-lightBlack dark:text-light mt-4 mb-8 md:mb-12">
+      <h1 className="text-center text-4xl font-bold  text-lightBlack dark:text-light mt-4 mb-8 md:mb-12">
         Featured Projects
-      </h2>
+      </h1>
       <p className="text-center font-semibold text-lightBlack dark:text-light">
         Hover to visit the source code repository and the live-hosted site, if
         applicable.

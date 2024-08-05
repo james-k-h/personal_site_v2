@@ -77,7 +77,10 @@ const LinksPage = () => {
     <>
       <Head>
         <title>Links</title>
-        <meta name="description" content="any description"></meta>
+        <meta
+          name="description"
+          content="Shortlist of my favourite links."
+        ></meta>
       </Head>
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
         <AnimatedText

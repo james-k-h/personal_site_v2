@@ -109,9 +109,9 @@ const Experience = () => {
 
   return (
     <div className="my-20 mb-20">
-      <h2 className="font-bold text-4xl mb-32 w-full text-center text-lightBlack dark:text-white">
+      <h1 className="font-bold text-4xl mb-32 w-full text-center text-lightBlack dark:text-white">
         Experience
-      </h2>
+      </h1>
 
       <div className="w-[75%] mx-auto relative" ref={ref}>
         <motion.div
