@@ -67,9 +67,9 @@ const Navbar = () => {
       </button>
       {/* mobile - hides under lg, use 2nd instance below */}
       <nav
-        className=" w-max py-3 xs:mt-0 mt-4 px-6 sm:px-8 border border-solid border-dark rounded-full font-medium capitalize  items-center   lg:hidden
+        className=" w-max py-3 xs:mt-0 mt-4 px-2 sm:px-8 border border-solid border-dark rounded-full font-medium capitalize  items-center   lg:hidden
         fixed top-6 right-1/2 translate-x-1/2 backdrop-blur-sm z-50  bg-tan/80 dark:bg-dark dark:text-light dark:border-light
-        transition-all ease duration-300
+        transition-all ease duration-300 text-sm sm:text-md
         flex
    
         "
@@ -116,8 +116,8 @@ const Navbar = () => {
       </nav>
 
       <nav
-        className=" w-max py-3 px-8 border border-solid bg-tan dark:bg-dark dark:text-light dark:border-light border-lightBlack rounded-full font-medium capitalize  items-center hidden lg:flex
-        fixed top-6 right-1/2 translate-x-1/2 bg-dark/80 backdrop-blur-sm z-50 text-lightBlack opacity-90"
+        className=" w-max py-3 px-8 border border-solid mt-4 dark:bg-dark dark:text-light dark:border-light border-dark rounded-full font-medium capitalize  items-center hidden lg:flex
+        fixed top-6 right-1/2 translate-x-1/2 bg-tan/80 backdrop-blur-sm z-50 text-lightBlack opacity-90"
       >
         <Link href="/" className="mr-2">
           Home
