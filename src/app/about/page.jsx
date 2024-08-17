@@ -7,8 +7,11 @@ import {
   skills_description_array,
 } from '../components/utils/index.js';
 import { Card, CardContent, Divider, Tooltip, Typography } from '@mui/material';
+import { useState } from 'react';
 
 const About = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <main className="flex min-h-screen flex-col  ">
       <div className="container mt-12 mx-auto px-12 py-4 text-center mb-12">
@@ -99,7 +102,11 @@ const About = () => {
             {p_l_f.map((item) => {
               return (
                 <div key={item.label}>
-                  <Tooltip title={item.label} id="tooltip">
+                  <Tooltip
+                    title={<p style={{ fontSize: '1vw' }}>{item.label} </p>}
+                    id="tooltip"
+                    disableFocusListener
+                  >
                     <Image
                       src={item.src}
                       alt={item.label}
@@ -118,7 +125,10 @@ const About = () => {
             {tools.map((item) => {
               return (
                 <div key={item.label}>
-                  <Tooltip title={item.label} id="tooltip">
+                  <Tooltip
+                    title={<p style={{ fontSize: '1vw' }}>{item.label} </p>}
+                    id="tooltip"
+                  >
                     <Image
                       src={item.src}
                       alt={item.label}
