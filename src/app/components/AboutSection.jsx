@@ -15,8 +15,8 @@ const AboutSection = () => {
           alt="James"
         />
         <div
-          className="opacity-90 mt-4 md:mt-0 text-left flex flex-col h-full border-2 rounded-3xl border-lightBlack dark:border-light p-4 
-        bg-tan dark:bg-dark"
+          className="opacity-90 mt-4 md:mt-0 text-left flex flex-col h-full  rounded-3xl border-lightBlack dark:border-light p-4 
+       "
         >
           <h2 className="text-4xl font-bold  text-lightBlack dark:text-lightGray mb-4">
             About Me
