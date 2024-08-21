@@ -7,7 +7,7 @@ import { motion, useInView } from 'framer-motion';
 const projectsData = [
   {
     id: 1,
-    stack: 'Next.js, TailwindCSS',
+    stack: 'Next.js, JavaScript, TailwindCSS',
     title: 'Portfolio Website',
     description: 'Personal portfolio site.',
     image: '/images/projects/personal_site.png',
@@ -27,7 +27,7 @@ const projectsData = [
   },
   {
     id: 3,
-    stack: 'Next.js, Supabase, TailwindCSS',
+    stack: 'Next.js, JavaScript, Supabase, TailwindCSS',
     title: 'My Blog',
     description: 'Sharing my thoughts, one post at a time.',
     image: '/images/projects/my_blog.png',
@@ -37,7 +37,7 @@ const projectsData = [
   },
   {
     id: 4,
-    stack: 'JavaScript, React, Next.js',
+    stack: 'Next.js, JavaScript, TailwindCSS',
     title: 'Bayview Eatery',
     description: 'The best local eats. ',
     image: '/images/projects/bayview_eatery.png',
@@ -57,7 +57,7 @@ const projectsData = [
   },
   {
     id: 6,
-    stack: 'Next.js, TS, TailwindCSS, PlanetScale',
+    stack: 'Next.js, TypeScript, TailwindCSS, PlanetScale',
     title: 'Communities',
     description: 'Create and follow your favourite communities. ',
     image: '/images/projects/communities.png',
@@ -77,7 +77,7 @@ const projectsData = [
   },
   {
     id: 8,
-    stack: 'Next.js, Mongo, Stripe, TailwindCSS',
+    stack: 'Next.js, JavaScript, TailwindCSS',
     title: 'E-Commerce PoC - Sneaker Store',
     description: 'View and purchase sneakers leveraging Stripe. ',
     image: '/images/projects/sneaker_store.png',
@@ -97,7 +97,7 @@ const projectsData = [
   },
   {
     id: 10,
-    stack: 'Mongo, Express, Next.js, Node',
+    stack: 'Express, Next.js, JavaScript',
     title: 'Job Search App',
     description: 'A web app solution to help organize your job search.',
     image: '/images/projects/job_search_stats.png',
@@ -107,7 +107,7 @@ const projectsData = [
   },
   {
     id: 11,
-    stack: 'React-Native, Redux, Firebase',
+    stack: 'React-Native, JavaScript, Redux, Firebase',
     title: 'Animal Encyclopedia',
     description: 'Handy animal fact guidebook.',
     image: '/images/projects/animal_app2.png',
