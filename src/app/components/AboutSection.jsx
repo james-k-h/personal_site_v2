@@ -22,20 +22,22 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="text-base lg:text-lg">
-            I am a self-taught programmer, focused on developing full-stack web
+            I am a self-taught programmer focused on developing full-stack web
             or mobile applications, using industry-leading frameworks and
             practices with a focus on JavaScript.
             <br />
             <br />
-            Another area of focus would be working cross-functionally to solve
-            real world business problems, from an IT perspective.
+            Another area of interest would be working cross-functionally to
+            solve real world business problems, from an IT perspective.
             <br />
             <br />
             Personally, I have a wide array of interests ranging from
             international political relations to football to European history
-            and everything in between. To learn more about me, visit the{' '}
+            and everything in between.
+            <br />
+            <br />
             <Link href="/about" className="hover:font-semibold">
-              About section.
+              To learn more about me, visit the About section.
             </Link>
           </p>
         </div>

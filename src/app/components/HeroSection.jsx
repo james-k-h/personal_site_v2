@@ -38,8 +38,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className=" text-black dark:text-light text-base sm:text-lg mb-6 lg:text-xl">
-            A self-taught IT professional, focused on web development and cloud
-            native applications.
+            Focused on web development and cloud native applications.
           </p>
           <div>
             <Link
