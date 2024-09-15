@@ -17,6 +17,7 @@
     "@material/tooltip": "^14.0.0",
     "@mui/material": "^5.14.19",
     "@vercel/analytics": "^1.1.1",
+    "@vercel/speed-insights": "^1.0.12",
     "autoprefixer": "10.4.15",
     "date-fns": "^2.30.0",
     "eslint": "8.47.0",
