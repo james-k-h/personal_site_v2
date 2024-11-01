@@ -57,7 +57,7 @@ const projectsData = [
   },
   {
     id: 6,
-    stack: 'Next.js, TypeScript, TailwindCSS, PlanetScale',
+    stack: 'Next.js, TypeScript, TailwindCSS, Postgres',
     title: 'Communities',
     description: 'Create and follow your favourite communities. ',
     image: '/images/projects/communities.png',
@@ -67,7 +67,7 @@ const projectsData = [
   },
   {
     id: 7,
-    stack: 'Mongo, Express, React, Node',
+    stack: 'MERN',
     title: 'Admin Dashboard',
     description: 'Dashboard for key E-Commerce facts. ',
     image: '/images/projects/mern_dash.png',
@@ -97,7 +97,7 @@ const projectsData = [
   },
   {
     id: 10,
-    stack: 'Express, Next.js, JavaScript',
+    stack: 'MERN',
     title: 'Job Search App',
     description: 'A web app solution to help organize your job search.',
     image: '/images/projects/job_search_stats.png',
