@@ -29,6 +29,7 @@ module.exports = {
         almond: '#EFDECD',
         // lightBlack: '#343432',
         lightBlack: '#474744',
+        charcoal: '#1B1212',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

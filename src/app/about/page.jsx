@@ -90,10 +90,94 @@ const About = () => {
           </div>
         </section>
 
+        {/* about part 2 */}
+
+        <section className="text-lightBlack dark:text-light ">
+          <div
+            className="justify-center items-center grid 
+        xl:grid-cols-3
+          gap-4  py-4 px-4  sm:py-20 mb-16"
+          >
+            {/* <div
+              //   className="mt-4 md:mt-0  xl:mt-10 text-center flex flex-col h-relative  rounded-3xl  p-4
+              //    border-lightBlack dark:border-light dark:bg-dark bg-tan border-2
+              // "
+              className="mt-4 md:mt-0  xl:mt-10 text-center flex flex-col h-relative  rounded-3xl  p-4 
+         "
+            > */}
+            <Image
+              src="/images/about/spain_2023_2.jpg"
+              alt="James"
+              width={200}
+              height={200}
+              sizes="20vw"
+              style={{
+                width: '100%',
+                height: 'auto ',
+              }}
+              className="rounded-3xl  border-lightBlack dark:border-light p-1  dark:bg-light
+                bg-lightBlack 
+          sm:hidden
+          xl:flex
+                "
+            />
+            <div
+              //   className="mt-4 md:mt-0  xl:mt-10 text-center flex flex-col h-relative  rounded-3xl  p-4
+              //    border-lightBlack dark:border-light dark:bg-dark bg-tan border-2
+              // "
+              className="mt-4 md:mt-0  xl:mt-10 text-center flex flex-col h-relative  rounded-3xl  p-4 
+        
+         "
+            >
+              <p className="lg:text-lg md:text-sm 2xl:text-xl">
+                <b>Travel</b>
+                <br />
+                <br />
+                As previously mentioned, travel is a key interest and acts as a
+                fusion between the excitement of exploring alongside realizing
+                learned history.
+                <br />
+                <br />
+                <b>Personal Goal:</b> Visit all 7 continents
+                <br />
+                <br />
+                <b>Next Destination:</b> Greece
+                <br />
+                <br />
+                <b>Bucket Item:</b> Amazon adventure; travel down the river with
+                an experienced guide
+                <br />
+                <br />
+                <b>Must See:</b> Machu Picchu
+                <br />
+                <br />
+                <b>Favourite Active Trip: </b> Skiing - Alta, Utah (USA)
+              </p>
+            </div>
+            <Image
+              src="/images/about/costa_rica_2023.jpg"
+              alt="James"
+              width={200}
+              height={200}
+              sizes="20vw"
+              style={{
+                width: '100%',
+                height: 'auto ',
+              }}
+              className="rounded-3xl  border-lightBlack dark:border-light p-1  dark:bg-light
+                bg-lightBlack 
+          sm:hidden
+          xl:flex
+                "
+            />
+            {/* </div> */}
+          </div>
+        </section>
+
         {/* skills section */}
         <div
           className="border-2 rounded-3xl border-lightBlack dark:border-light p-4  dark:bg-dark
-            bg-tan justify-center items-center"
+            bg-tan justify-center items-center "
         >
           <p className="text-base lg:text-lg text-center text-lightBlack dark:text-light ">
             <b>Programming Languages, Key Frameworks and Libraries</b>
@@ -143,7 +227,7 @@ const About = () => {
           </div>
         </div>
         {/* language overview */}
-        <div
+        {/* <div
           className="border-2 rounded-3xl border-lightBlack dark:border-light p-4 opacity-90 dark:bg-dark
             bg-tan justify-center items-center mt-10"
         >
@@ -175,7 +259,7 @@ const About = () => {
               );
             })}
           </div>
-        </div>
+        </div> */}
       </div>
     </main>
   );
