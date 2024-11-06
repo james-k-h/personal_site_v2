@@ -160,7 +160,7 @@ const Experience = () => {
             url="https://www.coursera.org/account/accomplishments/professional-cert/49EW6AM7WC7U"
           />{' '}
           <Details
-            position="Manager - Supply Chain Technology: Production Support"
+            position="Manager - Supply Chain Technology: Site Stability"
             company="Loblaw Companies LTD"
             companyLink="https://www.loblaw.ca/"
             time="June 2023 - June 2024"
