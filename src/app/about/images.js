@@ -2,7 +2,7 @@ import { Image } from 'react-grid-gallery';
 
 export const images = [
   {
-    src: '/images/about/gallery/costa_rica_2023_edit.JPG',
+    src: '/images/about/gallery/costa_rica_2023_edit.jpg',
     width: 320,
     height: 213,
   },
@@ -47,7 +47,7 @@ export const images = [
     height: 213,
   },
   {
-    src: '/images/about/gallery/james_florida.JPG',
+    src: '/images/about/gallery/james_florida.jpg',
     width: 320,
     height: 213,
   },
@@ -65,7 +65,7 @@ export const images = [
     height: 213,
   },
   {
-    src: 'images/about/gallery/james_sa.JPG',
+    src: 'images/about/gallery/james_sa.jpg',
 
     width: 313,
     height: 320,
@@ -81,7 +81,7 @@ export const images = [
     height: 123,
   },
   {
-    src: '/images/about/gallery/pic02.JPG',
+    src: '/images/about/gallery/pic02.jpg',
     width: 320,
     height: 213,
   },
