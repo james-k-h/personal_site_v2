@@ -85,4 +85,35 @@ export const images = [
     width: 320,
     height: 213,
   },
+
+  {
+    src: '/images/about/gallery/DSC_0169.JPG',
+    width: 320,
+    height: 213,
+  },
+  {
+    src: '/images/about/gallery/DSC_0028.JPG',
+    width: 320,
+    height: 133,
+  },
+  {
+    src: '/images/about/gallery/DSC_0126.JPG',
+    width: 183,
+    height: 320,
+  },
+  {
+    src: '/images/about/gallery/DSC_0077.JPG',
+    width: 320,
+    height: 213,
+  },
+  {
+    src: '/images/about/gallery/DSC_0157.JPG',
+    width: 320,
+    height: 213,
+  },
+  {
+    src: '/images/about/gallery/DSC_0054.JPG',
+    width: 320,
+    height: 213,
+  },
 ];
