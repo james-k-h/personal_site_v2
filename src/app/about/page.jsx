@@ -150,11 +150,6 @@ const About = () => {
                 <b>Travel</b>
                 <br />
                 <br />
-                As previously mentioned, travel is a key interest and acts as a
-                fusion between the excitement of exploring alongside realizing
-                learned history.
-                <br />
-                <br />
                 <b>Personal Goal:</b> Visit all 7 continents
                 <br />
                 <b>Next Destination:</b> Greece
