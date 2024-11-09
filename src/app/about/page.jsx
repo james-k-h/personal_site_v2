@@ -51,7 +51,8 @@ const About = () => {
             transition={{ duration: 0.5 }}
             className="justify-center items-center grid 
           xl:grid-cols-3
-          gap-4  py-4 px-4  sm:py-16"
+          gap-4  py-4 px-4  sm:py-16
+            md:justify-center md:items-center"
           >
             <Image
               src="/images/about/james_about_me.jpg"
@@ -65,7 +66,7 @@ const About = () => {
               }}
               className="rounded-3xl  border-lightBlack dark:border-light p-1  dark:bg-light
                 bg-lightBlack 
-          sm:hidden
+           hidden
           xl:flex
                 "
             />
@@ -169,7 +170,7 @@ const About = () => {
 
         <section
           className="
-          sm:hidden
+          hidden
           md:flex
 "
         >

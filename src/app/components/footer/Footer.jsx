@@ -6,7 +6,7 @@ import siteMetadata from '../utils/siteMetaData';
 
 const Footer = () => {
   return (
-    <footer className="w-full p-2 px-5 bg-tan/90  dark:bg-charcoal  flex flex-col items-center text-lightBlack dark:text-light">
+    <footer className="w-full p-2 px-5 bg-tan/90  dark:bg-otherBlack  flex flex-col items-center text-lightBlack dark:text-light">
       <h4 className=" font-bold text-center capitalize text-1xl sm:text-2xl lg:text-1xl px-2">
         Connect with me
       </h4>
