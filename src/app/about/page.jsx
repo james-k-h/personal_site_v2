@@ -1,36 +1,63 @@
 'use client';
+import React from 'react';
+
 import Image from 'next/image';
 import '../globals.css';
-import {
-  p_l_f,
-  tools,
-  skills_description_array,
-} from '../components/utils/index.js';
-import { Card, CardContent, Divider, Tooltip, Typography } from '@mui/material';
+import { p_l_f, tools } from '../components/utils/index.js';
+import { Tooltip } from '@mui/material';
 import { useState } from 'react';
+import { motion, useScroll } from 'framer-motion';
+
+import { Gallery } from 'react-grid-gallery';
+import { images as IMAGES } from './images';
 
 const About = () => {
+  const [images, setImages] = useState(IMAGES);
+  const hasSelected = images.some((image) => image.isSelected);
   const [open, setOpen] = useState(false);
+
+  const handleSelect = (index) => {
+    const nextImages = images.map((image, i) =>
+      i === index ? { ...image, isSelected: !image.isSelected } : image
+    );
+    setImages(nextImages);
+  };
+
+  const handleSelectAllClick = () => {
+    const nextImages = images.map((image) => ({
+      ...image,
+      isSelected: !hasSelected,
+    }));
+    setImages(nextImages);
+  };
 
   return (
     <main className="flex min-h-screen flex-col  ">
-      <div className="container mt-12 mx-auto px-12 py-4 text-center mb-12">
-        <h1 className=" text-lightBlack dark:text-light mb-4 text-2xl sm:text-3xl lg:text-4xl lg:leading-normal font-extrabold ">
+      <div className="container mt-12 mx-auto px-12 py-4 text-center mb-8">
+        <motion.h1
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className=" text-lightBlack dark:text-light mb-4 text-2xl sm:text-3xl lg:text-4xl lg:leading-normal font-extrabold "
+        >
           <span className=" bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
             A Little About Me...
           </span>
-        </h1>
+        </motion.h1>
         <section className="text-lightBlack dark:text-light ">
-          <div
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
             className="justify-center items-center grid 
-          xl:grid-cols-2 
+          xl:grid-cols-3
           gap-4  py-4 px-4  sm:py-16"
           >
             <Image
               src="/images/about/james_about_me.jpg"
               alt="James"
-              width={600}
-              height={600}
+              width={400}
+              height={400}
               sizes="20vw"
               style={{
                 width: '100%',
@@ -48,7 +75,7 @@ const About = () => {
               //    border-lightBlack dark:border-light dark:bg-dark bg-tan border-2
               // "
               className="mt-4 md:mt-0  xl:mt-10 text-center flex flex-col h-relative  rounded-3xl  p-4 
-        
+        col-span-2
          "
             >
               <p className="lg:text-lg md:text-sm 2xl:text-xl ">
@@ -87,16 +114,21 @@ const About = () => {
                 have been able to build this site!
               </p>
             </div>
-          </div>
+          </motion.div>
         </section>
 
         {/* about part 2 */}
 
         <section className="text-lightBlack dark:text-light ">
-          <div
-            className="justify-center items-center grid 
-        xl:grid-cols-3
-          gap-4  py-4 px-4  sm:py-20 mb-16"
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            className="justify-center items-center 
+  
+          gap-4  py-2 px-4  
+         
+          "
           >
             {/* <div
               //   className="mt-4 md:mt-0  xl:mt-10 text-center flex flex-col h-relative  rounded-3xl  p-4
@@ -105,22 +137,7 @@ const About = () => {
               className="mt-4 md:mt-0  xl:mt-10 text-center flex flex-col h-relative  rounded-3xl  p-4 
          "
             > */}
-            <Image
-              src="/images/about/spain_2023_2.jpg"
-              alt="James"
-              width={200}
-              height={200}
-              sizes="20vw"
-              style={{
-                width: '100%',
-                height: 'auto ',
-              }}
-              className="rounded-3xl  border-lightBlack dark:border-light p-1  dark:bg-light
-                bg-lightBlack 
-          sm:hidden
-          xl:flex
-                "
-            />
+
             <div
               //   className="mt-4 md:mt-0  xl:mt-10 text-center flex flex-col h-relative  rounded-3xl  p-4
               //    border-lightBlack dark:border-light dark:bg-dark bg-tan border-2
@@ -140,37 +157,46 @@ const About = () => {
                 <br />
                 <b>Personal Goal:</b> Visit all 7 continents
                 <br />
-                <br />
                 <b>Next Destination:</b> Greece
-                <br />
                 <br />
                 <b>Bucket Item:</b> Amazon adventure; travel down the river with
                 an experienced guide
                 <br />
-                <br />
                 <b>Must See:</b> Machu Picchu
                 <br />
-                <br />
                 <b>Favourite Active Trip: </b> Skiing - Alta, Utah (USA)
+                <br />
+                <br />
               </p>
             </div>
-            <Image
-              src="/images/about/costa_rica_2023.jpg"
-              alt="James"
-              width={200}
-              height={200}
-              sizes="20vw"
-              style={{
-                width: '100%',
-                height: 'auto ',
-              }}
-              className="rounded-3xl  border-lightBlack dark:border-light p-1  dark:bg-light
-                bg-lightBlack 
+          </motion.div>
+        </section>
+
+        <section
+          className="
           sm:hidden
-          xl:flex
-                "
-            />
-            {/* </div> */}
+          md:flex
+"
+        >
+          <div
+            className="mb-32
+        py-2 px-4  mt-4
+           text-lightBlack dark:text-light
+        "
+          >
+            <h2 className="lg:text-lg md:text-sm 2xl:text-xl ">
+              <b>Travel Pictures</b>
+            </h2>
+            <div
+              className="p-t-1 p-b-1
+       
+          "
+            >
+              <button onClick={handleSelectAllClick}>
+                {hasSelected ? 'Clear selection' : 'Select all'}
+              </button>
+            </div>
+            <Gallery images={images} onSelect={handleSelect} />
           </div>
         </section>
 
@@ -226,40 +252,6 @@ const About = () => {
             })}
           </div>
         </div>
-        {/* language overview */}
-        {/* <div
-          className="border-2 rounded-3xl border-lightBlack dark:border-light p-4 opacity-90 dark:bg-dark
-            bg-tan justify-center items-center mt-10"
-        >
-          <p className="text-base lg:text-lg text-center text-lightBlack dark:text-light ">
-            <b>Programming Languages - Summary</b>
-          </p>
-          <div className=" grid grid-cols-1 md:grid-cols-2 gap-8  py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ">
-            {skills_description_array.map((item) => {
-              return (
-                <div key={item.name}>
-                  <Card
-                    // class="test1"
-                    className="bg-tan dark:bg-light"
-                  >
-                    <CardContent>
-                      <Typography variant="h5" color="#474744">
-                        {item.name}
-                      </Typography>
-                      <Divider />
-                      <Typography color="#474744">
-                        {item.frameworks_libraries}
-                      </Typography>
-                      <Typography color="#474744">
-                        {item.description}
-                      </Typography>
-                    </CardContent>
-                  </Card>
-                </div>
-              );
-            })}
-          </div>
-        </div> */}
       </div>
     </main>
   );
