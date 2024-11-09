@@ -2,7 +2,7 @@ import { Image } from 'react-grid-gallery';
 
 export const images = [
   {
-    src: '/images/about/gallery/costa_rica_2023_edit.jpg',
+    src: '/images/about/gallery/costa_rica_2023_edit.JPG',
     width: 320,
     height: 213,
     // tags: [
