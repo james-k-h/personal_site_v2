@@ -9,7 +9,7 @@ export const images = [
   {
     src: '/images/about/gallery/IMG_4245.JPG',
     width: 320,
-    height: 212,
+    height: 123,
   },
   {
     src: '/images/about/gallery/IMG_4391.JPG',

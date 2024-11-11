@@ -124,7 +124,7 @@ const Experience = () => {
             position="Manager - Supply Chain Technology: Strategic Initiatives"
             company="Loblaw Companies LTD"
             companyLink="https://www.loblaw.ca/"
-            time="July 2024 - Present"
+            time="August 2024 - Present"
             address="1 PCC, Brampton"
             work="Release and Change management, New Features and Program projects alongside other key efforts for the continued adoption 
             of a Cloud-Native WMS solution across the Loblaw distribution network."
@@ -163,7 +163,7 @@ const Experience = () => {
             position="Manager - Supply Chain Technology: Site Stability"
             company="Loblaw Companies LTD"
             companyLink="https://www.loblaw.ca/"
-            time="June 2023 - June 2024"
+            time="June 2023 - July 2024"
             address="1 PCC, Brampton"
             work="Warehouse Management, part of a program team responsible for rolling out and supporting a Cloud-Native WMS Application for Loblaw and Shoppers Distribution Centers.
             Post conversion, owned the Support, Release and Change Management for multiple Distribution Centers spanning across Canada."
