@@ -61,7 +61,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-lightBlack dark:bg-light w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/about/james.jpg"
+              src="https://utfs.io/f/vp3TJw7SgFuVd0BmsALM0tECi4qP8aIYRQpfhgNB9Hy3eGmT"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
               width={375}

@@ -55,7 +55,7 @@ const About = () => {
             md:justify-center md:items-center"
           >
             <Image
-              src="/images/about/james_about_me.jpg"
+              src="https://utfs.io/f/vp3TJw7SgFuVdtTDSyLM0tECi4qP8aIYRQpfhgNB9Hy3eGmT"
               alt="James"
               width={400}
               height={400}
