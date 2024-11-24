@@ -112,7 +112,8 @@ const About = () => {
                 invaluable skill to have and allows for a multitude of
                 opportunities; by virtue of learning these skills you inevitably
                 become more digitally literate. Plus, without it I wouldn&apos;t
-                have been able to build this site!
+                have been able to build this site! Holistic list of aptitudes
+                provided below.
               </p>
             </div>
           </motion.div>
@@ -149,6 +150,10 @@ const About = () => {
             >
               <p className="lg:text-lg md:text-sm 2xl:text-xl">
                 <b>Travel</b>
+                <br />
+                As mentioned above, traveling is a key interest.
+                <br />
+                Here is a quick summary of some travel goals and facts!
                 <br />
                 <br />
                 <b>Personal Goal:</b> Visit all 7 continents
