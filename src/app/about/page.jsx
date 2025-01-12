@@ -10,6 +10,7 @@ import { motion, useScroll } from 'framer-motion';
 
 import { Gallery } from 'react-grid-gallery';
 import { images as IMAGES } from './images';
+import Link from 'next/link';
 
 const About = () => {
   const [images, setImages] = useState(IMAGES);
@@ -114,92 +115,20 @@ const About = () => {
                 become more digitally literate. Plus, without it I wouldn&apos;t
                 have been able to build this site! Holistic list of aptitudes
                 provided below.
+                <br />
+                <br />
+                <Link
+                  href="/about/travel"
+                  className="font-semibold hover:italic"
+                >
+                  Check out my latest travels here!
+                </Link>
               </p>
             </div>
           </motion.div>
         </section>
 
-        {/* about part 2 */}
-
-        <section className="text-lightBlack dark:text-light ">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-            className="justify-center items-center 
-  
-          gap-4  py-2 px-4  
-         
-          "
-          >
-            {/* <div
-              //   className="mt-4 md:mt-0  xl:mt-10 text-center flex flex-col h-relative  rounded-3xl  p-4
-              //    border-lightBlack dark:border-light dark:bg-dark bg-tan border-2
-              // "
-              className="mt-4 md:mt-0  xl:mt-10 text-center flex flex-col h-relative  rounded-3xl  p-4 
-         "
-            > */}
-
-            <div
-              //   className="mt-4 md:mt-0  xl:mt-10 text-center flex flex-col h-relative  rounded-3xl  p-4
-              //    border-lightBlack dark:border-light dark:bg-dark bg-tan border-2
-              // "
-              className="mt-4 md:mt-0  xl:mt-10 text-center flex flex-col h-relative  rounded-3xl  p-4 
-        
-         "
-            >
-              <p className="lg:text-lg md:text-sm 2xl:text-xl">
-                <b>Travel</b>
-                <br />
-                As mentioned above, traveling is a key interest.
-                <br />
-                Here is a quick summary of some travel goals and facts!
-                <br />
-                <br />
-                <b>Personal Goal:</b> Visit all 7 continents
-                <br />
-                <b>Next Destination:</b> Greece
-                <br />
-                <b>Bucket Item:</b> Amazon adventure; travel down the river with
-                an experienced guide
-                <br />
-                <b>Must See:</b> Machu Picchu
-                <br />
-                <b>Favourite Active Trip: </b> Skiing - Alta, Utah (USA)
-                <br />
-                <br />
-              </p>
-            </div>
-          </motion.div>
-        </section>
-
-        <section
-          className="
-          hidden
-          md:flex
-"
-        >
-          <div
-            className="mb-32
-        py-2 px-4  mt-4
-           text-lightBlack dark:text-light
-        "
-          >
-            <h2 className="lg:text-lg md:text-sm 2xl:text-xl ">
-              <b>Travel Pictures</b>
-            </h2>
-            <div
-              className="p-t-1 p-b-1
-       
-          "
-            >
-              <button onClick={handleSelectAllClick}>
-                {hasSelected ? 'Clear selection' : 'Select all'}
-              </button>
-            </div>
-            <Gallery images={images} onSelect={handleSelect} />
-          </div>
-        </section>
+        {/* about part 2 - areas of focus: add in https://jkh-personal.web.app/ areas of focus */}
 
         {/* skills section */}
         <div
