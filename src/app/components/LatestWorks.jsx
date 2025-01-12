@@ -35,7 +35,7 @@ const LatestWorks = () => {
     {
       title: 'Next E-Commerce',
       text: 'E-Commerce PoC, a mock-up sneaker store.',
-      image: '/images/projects/sneaker_store.png',
+      image: '/images/projects/sneaker_store_v2.png',
       color: 'blackAlpha.700',
       click: '/projects/ecommerce_poc',
     },
