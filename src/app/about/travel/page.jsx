@@ -101,7 +101,7 @@ const AboutTravel = () => {
 
         <section
           className="
-          hidden
+     
           md:flex
 "
         >
