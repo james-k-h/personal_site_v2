@@ -72,7 +72,7 @@ const DetailsEducation = ({ type, time, provider, info, url }) => {
     </li>
   );
 };
-const DetailsEducation2 = ({ type, time, provider, info }) => {
+const DetailsEducation2 = ({ type, time, provider, info, url }) => {
   const ref = useRef(null);
   return (
     <li
@@ -87,10 +87,17 @@ const DetailsEducation2 = ({ type, time, provider, info }) => {
         transition={{ duration: 0.5, type: 'spring' }}
       >
         <h3 className="capitalize font-bold text-2xl text-lightBlack dark:text-light">
-          {type}
+          {type}&nbsp;{' '}
+          <a
+            href={url}
+            target="_blank"
+            className="text-coralPink  dark:text-accentDark capitalize hover:italic transition-all ease duration-200"
+          >
+            @{provider}
+          </a>
         </h3>
         <span className="capitalize font-bold text-lightBlack/75 dark:text-light/75 italic">
-          {time} | {provider}
+          {time}
         </span>
         <p className="font-bold w-full text-lightBlack dark:text-light">
           {info}
@@ -201,10 +208,11 @@ const Experience = () => {
           />{' '}
           <DetailsEducation2
             type="Honours Bachelor of Arts"
-            time="December 2020"
+            time=" - December 2020"
             provider="University of Toronto"
             info="Political Science Major.
             International Relations, International Political Economy, Canadian Government."
+            url="https://www.utoronto.ca/"
           />{' '}
           <Details
             position="Previous Work Experience"
