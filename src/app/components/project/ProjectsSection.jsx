@@ -145,6 +145,9 @@ const ProjectsSection = () => {
       <p className="text-center font-semibold text-lightBlack dark:text-light">
         Hover to visit the source code repository and the live-hosted site, if
         applicable.
+        <br />
+        <b>Note:</b> Some of these projects are hosted on free hosting platforms
+        so they might take a up to a minute to load.
       </p>
       <div className="grid grid-cols-2 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4  text-lightBlack dark:text-light  flex-row justify-center items-center gap-3 py-6 ">
         <ProjectTag
