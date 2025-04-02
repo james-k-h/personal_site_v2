@@ -134,7 +134,7 @@ const Experience = () => {
             time="August 2024 - Present"
             address="1 PCC, Brampton"
             work="Release and Change management, New Features and Program projects alongside other key efforts for the continued adoption 
-            of a Cloud-Native WMS solution across the Loblaw distribution network."
+            of a Cloud-Native Warehouse, Yard and Labour Management solution across the Loblaw and Shoppers Drug Mart distribution network."
           />{' '}
           <DetailsEducation
             type="AWS Cloud Technology Consultant Certification"
