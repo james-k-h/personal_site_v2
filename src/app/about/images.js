@@ -141,4 +141,19 @@ export const images = [
     width: 320,
     height: 213,
   },
+  {
+    src: 'https://3kkrq3j76r.ufs.sh/f/vp3TJw7SgFuVbqdeRb1igzkIGaHeJcpLArlW9CNodhKfS65X',
+    width: 213,
+    height: 320,
+  },
+  {
+    src: 'https://3kkrq3j76r.ufs.sh/f/vp3TJw7SgFuVMHj3CwOylI7UEJNSdcPWaxA253b8fvXoKy4M',
+    width: 320,
+    height: 213,
+  },
+  {
+    src: 'https://3kkrq3j76r.ufs.sh/f/vp3TJw7SgFuVER2uc2SvDSgony8ChtF4sA9Ip5aXlP3TRHmJ',
+    width: 320,
+    height: 213,
+  },
 ];
