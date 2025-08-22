@@ -35,7 +35,7 @@ const Article = ({ img, title, date, link, summary }) => {
   );
 };
 
-const FeaturedArticle = ({ img, title, time, summary, link }) => {
+const FeaturedArticle = ({ date, img, title, time, summary, link }) => {
   return (
     <li
       className=" relative col-span-1 w-full border border-solid
@@ -58,12 +58,15 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
       <Link href={link} target="_blank">
         <h2
           className="capitalize text-2xl font-bold my-2 
-        hover:underline mt-4 text-lightBlack dark:text-lightGray"
+        hover:underline mt-2 text-lightBlack dark:text-lightGray"
         >
           {title}
         </h2>
       </Link>
-      <p className="text-sm mb-2 text-lightBlack dark:text-lightGray font-semibold">
+      <p className="text-coralPink dark:text-accentDark font-semibold">
+        {date}
+      </p>
+      <p className="text-sm  text-lightBlack dark:text-lightGray font-semibold">
         {summary}
       </p>
       <span className="text-coralPink dark:text-accentDark font-semibold">
@@ -95,6 +98,7 @@ const LinksPage = () => {
             time="9 min read"
             link="https://www.brookings.edu/articles/taking-stock-of-the-ongoing-war-in-israel-and-gaza/"
             img={article_1}
+            date={'December 7, 2023'}
           />
           <FeaturedArticle
             title="Propaganda, foreign interference, and generative AI"
@@ -102,6 +106,7 @@ const LinksPage = () => {
             time="7 min read"
             link="https://www.brookings.edu/articles/propaganda-foreign-interference-and-generative-ai/"
             img={article_2}
+            date={'November 8, 2023'}
           />
         </ul>
         <h2
