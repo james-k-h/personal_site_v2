@@ -77,7 +77,7 @@ const AboutTravel = () => {
               <p className="lg:text-lg md:text-sm 2xl:text-xl">
                 <b>Travel</b>
                 <br />
-                As mentioned above, traveling is a key interest.
+                Traveling is a key interest and a great way to spend time.
                 <br />
                 Here is a quick summary of some travel goals and facts!
                 <br />

@@ -84,13 +84,14 @@ const About = () => {
                 <b>Professionally</b>
                 <br />
                 <br />
-                I currently work in the IT sector, acting as a manager for one
-                of our large Canadian retailers. My day to day varies but it is
-                usually focused on helping to lead the team in order to drive
-                production stability and application innovation, while
-                collaborating with our business and vendor partners. I am
+                I currently work in the tech sector, acting as in a management
+                role for one of our large Canadian retailers. My day to day
+                varies but it is usually focused on helping to lead the team in
+                order to drive production stability and application innovation,
+                while collaborating with our business and vendor partners. I am
                 interested in both full-stack development or engineering and
-                project management.
+                project management, along with integrating technology into the
+                supply chain.
                 <br />
                 <br />
                 <b>Personally</b>

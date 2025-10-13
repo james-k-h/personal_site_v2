@@ -128,10 +128,19 @@ const Experience = () => {
 
         <ul className=" w-full flex flex-col items-start justify-between ml-4 text-left">
           <Details
+            position="Senior Manager - Supply Chain Technology: Strategic Initiatives"
+            company="Loblaw Companies LTD"
+            companyLink="https://www.loblaw.ca/"
+            time="October 2025 - Present"
+            address="1 PCC, Brampton"
+            work="Release and Change management, New Features and Program projects alongside other key efforts for the continued adoption 
+            of a Cloud-Native Warehouse, Yard and Labour Management solution across the Loblaw and Shoppers Drug Mart distribution network."
+          />{' '}
+          <Details
             position="Manager - Supply Chain Technology: Strategic Initiatives"
             company="Loblaw Companies LTD"
             companyLink="https://www.loblaw.ca/"
-            time="August 2024 - Present"
+            time="August 2024 - September 2025"
             address="1 PCC, Brampton"
             work="Release and Change management, New Features and Program projects alongside other key efforts for the continued adoption 
             of a Cloud-Native Warehouse, Yard and Labour Management solution across the Loblaw and Shoppers Drug Mart distribution network."
