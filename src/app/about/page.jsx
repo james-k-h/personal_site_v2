@@ -52,7 +52,7 @@ const About = () => {
             transition={{ duration: 0.5 }}
             className="justify-center items-center grid 
           xl:grid-cols-3
-          gap-4  py-4 px-4  sm:py-16
+          gap-4  py-4 px-4  sm:py-8
             md:justify-center md:items-center"
           >
             <Image

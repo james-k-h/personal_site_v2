@@ -16,13 +16,13 @@ const achievementsList = [
     postfix: '+',
   },
   {
-    prefix: '>',
-    metric: 'Users',
-    value: '2500',
+    metric: 'Programming: Years of Experience',
+    value: '3',
+    prefix: '~',
   },
   {
-    metric: 'Years of Experience',
-    value: '2',
+    metric: 'Professional: Years of Experience',
+    value: '5',
     prefix: '~',
   },
 ];
