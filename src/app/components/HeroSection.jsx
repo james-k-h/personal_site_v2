@@ -33,6 +33,8 @@ const HeroSection = () => {
                 1000,
                 'People Leader',
                 1000,
+                'Supply Chain',
+                1000,
               ]}
               wrapper="span"
               speed={50}
