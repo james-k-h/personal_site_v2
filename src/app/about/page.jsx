@@ -129,6 +129,8 @@ const About = () => {
           </motion.div>
         </section>
 
+        {/* currently working on */}
+
         {/* about part 2 - areas of focus: add in https://jkh-personal.web.app/ areas of focus */}
 
         {/* skills section */}
