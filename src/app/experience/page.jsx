@@ -129,16 +129,17 @@ const Experience = () => {
         <ul className=" w-full flex flex-col items-start justify-between ml-4 text-left">
           <DetailsEducation2
             type="DevOps"
-            time=" Feb 2024 - [In Progress] "
+            time=" Feb 2025 - [In Progress] "
             provider="University of Toronto"
             info=<ul>
               <p> Four part program, consisting of the following:</p>
-              <li>1. Principles and Practices</li>
+              <li>1. Principles and Practices [Done]</li>
               <li>
                 2. Ecosystem, Architecture and Continuous Software Delivery
+                [IPR]
               </li>
-              <li>3. Tools and Applications</li>
-              <li> 4. Design and Architecture of Cloud Systems</li>
+              <li>3. Tools and Applications [Spring 2026]</li>
+              <li> 4. Design and Architecture of Cloud Systems [Done]</li>
             </ul>
             url="https://learn.utoronto.ca/programs-courses/certificates/devops"
           />
