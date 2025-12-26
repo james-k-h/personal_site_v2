@@ -143,7 +143,7 @@ const Experience = () => {
               <li>1. Principles and Practices [Done]</li>
               <li>
                 2. Ecosystem, Architecture and Continuous Software Delivery
-                [IPR]
+                [Done]
               </li>
               <li>3. Tools and Applications [Spring 2026]</li>
               <li> 4. Design and Architecture of Cloud Systems [Done]</li>
