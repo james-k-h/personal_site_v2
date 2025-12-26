@@ -113,7 +113,7 @@ const LinksPage = () => {
           className="font-bold text-4xl w-full text-center my-4
         mt-12 mb-4 text-lightBlack dark:text-lightGray"
         >
-          All Articles
+          Additional Articles
         </h2>
 
         <ul className="w-5/6 mb-8 flex flex-col items-center justify-center overflow-hidden">

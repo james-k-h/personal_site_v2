@@ -127,8 +127,15 @@ const Experience = () => {
         />
 
         <ul className=" w-full flex flex-col items-start justify-between ml-4 text-left">
+          <DetailsEducation
+            type="Certification: Generative AI for Software Development"
+            time="December 2025"
+            provider="DeepLearning.AI"
+            info="Embedding AI in software and systems design, in tandem with engineering."
+            url="https://learn.deeplearning.ai/certificates/c6ab2053-6701-43e8-b2b4-68e088335696"
+          />
           <DetailsEducation2
-            type="DevOps"
+            type="DevOps Program"
             time=" Feb 2025 - [In Progress] "
             provider="University of Toronto"
             info=<ul>
@@ -162,7 +169,7 @@ const Experience = () => {
             of a Cloud-Native Warehouse, Yard and Labour Management solution across the Loblaw and Shoppers Drug Mart distribution network."
           />{' '}
           <DetailsEducation
-            type="AWS Cloud Technology Consultant Certification"
+            type="Certification: AWS Cloud Technology Consultant"
             time="January 2024"
             provider="AWS"
             info="Applying AWS solutions to business goals and drivers, alongside being able to provide
@@ -170,14 +177,14 @@ const Experience = () => {
             url="https://www.coursera.org/account/accomplishments/professional-cert/WJ5ZAZ3UM25J"
           />{' '}
           <DetailsEducation
-            type="DevOps on AWS Certification"
+            type="Certification: DevOps on AWS"
             time="January 2024"
             provider="AWS"
             info="Applying DevOps on AWS, from coding to monitoring and everything in between."
             url="https://www.coursera.org/account/accomplishments/specialization/ZM82PY9U4Y4E"
           />{' '}
           <DetailsEducation
-            type="DevOps and Software Engineering Certification"
+            type="Certification: DevOps and Software Engineering"
             time="January 2024"
             provider="IBM"
             info="Essential DevOps skills and how to implement them as a SWE. Includes Microservice development (Docker, Kubernetes, OS),
@@ -185,7 +192,7 @@ const Experience = () => {
             url="https://coursera.org/share/5979e2a9bb5b3167eb93a753ddd51fca"
           />{' '}
           <DetailsEducation
-            type="Back-End Developer Certification"
+            type="Certification: Back-End Developer"
             time="November 2023"
             provider="Meta"
             info="Server-side certification focused on API development alongside version control, using Python and Django."
@@ -209,14 +216,14 @@ const Experience = () => {
             url="https://www.credly.com/badges/a2394a10-8296-4a04-9881-1833bdca084c/print"
           />{' '}
           <DetailsEducation
-            type="IT Automation with Python Certification"
+            type="Certification: IT Automation with Python"
             time="October 2022"
             provider="Google"
             info="Focused on critical automation skills for IT support and system administration tasks."
             url="https://www.coursera.org/account/accomplishments/professional-cert/55U5X948MGUV"
           />{' '}
           <Details
-            position="IT Specialist - PMO"
+            position="IT Specialist - Project Management Office"
             company="Loblaw Companies LTD"
             companyLink="https://www.loblaw.ca/"
             time="January 2022 - May 2023"
@@ -224,7 +231,7 @@ const Experience = () => {
             work="Tool SME for Clarity PPM. Automating tasks programatically E-2-E. Enterprise reporting and data analysis."
           />{' '}
           <Details
-            position="Intern - PMO"
+            position="Intern - Project Management Office"
             company="Loblaw Companies LTD"
             companyLink="https://www.loblaw.ca/"
             time="May 2021 - December 2021"

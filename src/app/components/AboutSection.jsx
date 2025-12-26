@@ -11,7 +11,7 @@ const AboutSection = () => {
           src="https://utfs.io/f/vp3TJw7SgFuV2Yk2uaPXHEehtLjS0cKUwWR62qTkgo3y97mN"
           width={600}
           height={500}
-          className="border-2 rounded-3xl border-lightBlack dark:border-light"
+          className="border-8 rounded-3xl border-lightBlack dark:border-light"
           alt="James"
         />
         <div
@@ -23,12 +23,11 @@ const AboutSection = () => {
           </h2>
           <p className="text-base lg:text-lg">
             I am a self-taught programmer focused on developing full-stack web
-            or mobile applications, using industry-leading frameworks and
-            practices with a focus on JavaScript.
+            or mobile applications, using industry-leading frameworks.
             <br />
             <br />
-            Another area of interest would be working cross-functionally to
-            solve real world business problems, from an IT perspective.
+            Another area of expertise would be working cross-functionally to
+            solve real world business problems, from a technology perspective.
             <br />
             <br />
             Personally, I have a wide array of interests ranging from
@@ -37,7 +36,7 @@ const AboutSection = () => {
             <br />
             <br />
             <Link href="/about" className="hover:font-semibold">
-              To learn more about me, visit the About section.
+              To learn more about me, visit the About section - or click here.
             </Link>
           </p>
         </div>

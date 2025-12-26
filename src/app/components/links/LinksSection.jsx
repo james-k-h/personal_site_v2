@@ -43,5 +43,3 @@ export const links_array = [
     see_more: 'https://www.bbc.com/news/world-60525350',
   },
 ];
-
-

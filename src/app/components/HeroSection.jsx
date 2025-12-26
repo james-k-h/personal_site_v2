@@ -42,7 +42,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className=" text-black dark:text-light text-base sm:text-lg mb-6 lg:text-xl">
-            Focused on web development and cloud native applications.
+            Focused on AI, Web Development and Cloud Native Applications.
           </p>
           <div>
             <Link
