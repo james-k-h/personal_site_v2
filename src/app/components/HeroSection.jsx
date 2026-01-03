@@ -51,7 +51,7 @@ const HeroSection = () => {
               target="_blank"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 text-white mt-3"
             >
-              <span className="opacity-80 inline-block py-2 sm:py-3 px-6 sm:px-10  bg-lightBlack dark:bg-light dark:text-white text-white rounded-full capitalize font-semibold border-2 border-solid border-white dark:border-white hover:scale-105 transition-all ease duration-200 text-sm sm:text-base">
+              <span className="opacity-80 inline-block py-2 sm:py-3 px-6 sm:px-10 bg-gradient-to-br from-primary-500 to-secondary-500  bg-lightBlack dark:bg-light dark:text-white text-white rounded-full capitalize font-semibold border-2 border-solid border-white dark:border-white hover:scale-105 transition-all ease duration-200 text-sm sm:text-base">
                 Download Resume
               </span>
             </Link>

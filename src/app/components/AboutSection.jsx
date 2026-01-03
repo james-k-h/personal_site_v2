@@ -35,8 +35,13 @@ const AboutSection = () => {
             and everything in between.
             <br />
             <br />
-            <Link href="/about" className="hover:font-semibold">
-              To learn more about me, visit the About section - or click here.
+            <Link
+              href="/about"
+              className="inline-block py-2 sm:py-3 px-6 sm:px-10  bg-lightBlack dark:bg-light dark:text-white text-white rounded-full capitalize font-semibold border-2 border-solid border-white dark:border-white hover:scale-105 transition-all ease duration-200 text-sm sm:text-base"
+            >
+              {' '}
+              Learn More About Me
+              <span className="ml-2">→</span>
             </Link>
           </p>
         </div>

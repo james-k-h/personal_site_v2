@@ -196,7 +196,7 @@ const About = () => {
                 title="Personally"
                 icon="✨"
                 delay={0.5}
-                content="My interests span across a number of different areas, some of which include: programming, history (predominantly European), global political economy and international relations, traveling, long distance running and skiing. Programming is the newest addition to the roster and is something I picked up approximately 2 years ago, but it has quickly become a passion of mine."
+                content="My interests span across a number of different areas, some of which include: programming, history (predominantly European), global political economy and international relations, traveling, long distance running and skiing. Programming is the newest addition to the roster and is something I picked up approximately 3 years ago, but it has quickly become a passion of mine."
               />
 
               <StoryCard

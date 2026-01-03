@@ -116,9 +116,27 @@ const Experience = () => {
 
   return (
     <div className="my-20 mb-20">
-      <h1 className="font-bold text-4xl mb-32 w-full text-center text-lightBlack dark:text-light">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="text-center mb-20"
+      >
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 text-lightBlack dark:text-light">
+          Professional{' '}
+          <span className="bg-clip-text text-coralPink dark:text-accentDark bg-gradient-to-r from-primary-400 to-secondary-600">
+            Journey
+          </span>
+        </h1>
+        <p className="text-lg lg:text-xl text-lightBlack/80 dark:text-light/80 max-w-2xl mx-auto mb-6">
+          A timeline of my career growth, certifications, and continuous
+          learning
+        </p>
+        <div className="w-24 h-1 bg-gradient-to-r from-primary-400 to-secondary-600 mx-auto rounded-full" />
+      </motion.div>
+      {/* <h1 className="font-bold text-4xl mb-32 w-full text-center text-lightBlack dark:text-light">
         Experience
-      </h1>
+      </h1> */}
 
       <div className="w-[75%] mx-auto relative" ref={ref}>
         <motion.div
