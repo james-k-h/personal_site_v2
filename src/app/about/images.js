@@ -9,12 +9,12 @@ export const images = [
   {
     src: 'https://utfs.io/f/vp3TJw7SgFuV6R3HSI4m1O6rIlaZ0V8Mb7wL3pWfAugxUGDy',
     width: 320,
-    height: 123,
+    height: 213,
   },
   {
     src: 'https://utfs.io/f/vp3TJw7SgFuVWZSTyVhS9HPZNgGLbKi58kEFVhw2m1ptO37T',
     width: 320,
-    height: 212,
+    height: 213,
   },
   {
     src: 'https://utfs.io/f/vp3TJw7SgFuVWtwfQIhS9HPZNgGLbKi58kEFVhw2m1ptO37T',
@@ -24,17 +24,17 @@ export const images = [
   {
     src: 'https://utfs.io/f/vp3TJw7SgFuV2F2VL7PXHEehtLjS0cKUwWR62qTkgo3y97mN',
     width: 320,
-    height: 183,
+    height: 213,
   },
   {
     src: 'https://utfs.io/f/vp3TJw7SgFuVvtbnhU7SgFuVpGNwJi2eDT9xMlyhRoAImQUb',
-    width: 240,
-    height: 320,
+    width: 320,
+    height: 213,
   },
   {
     src: 'https://utfs.io/f/vp3TJw7SgFuV5ZhoMSvO0EeIs8Di4LlG9rpo2VwOMNcKjazW',
     width: 320,
-    height: 190,
+    height: 213,
   },
   {
     src: 'https://utfs.io/f/vp3TJw7SgFuVpLXDV7HyjR6X0um5NCfnZSzOIk1KrdGUYJE3',
@@ -94,12 +94,12 @@ export const images = [
   {
     src: 'https://utfs.io/f/vp3TJw7SgFuV7JpfzYrbNRmuMp8OW36XvT4kxFisjzqQBy90',
     width: 320,
-    height: 133,
+    height: 213,
   },
   {
     src: 'https://utfs.io/f/vp3TJw7SgFuVmj5lRgmxuLYWpjEAUio0IbB8OC5GVktl9MK1',
-    width: 183,
-    height: 320,
+    width: 320,
+    height: 213,
   },
   {
     src: 'https://utfs.io/f/vp3TJw7SgFuVMoiAORylI7UEJNSdcPWaxA253b8fvXoKy4MF',
@@ -124,7 +124,7 @@ export const images = [
   {
     src: 'https://utfs.io/f/vp3TJw7SgFuVbnTJyVigzkIGaHeJcpLArlW9CNodhKfS65XY',
     width: 320,
-    height: 183,
+    height: 213,
   },
   {
     src: 'https://utfs.io/f/vp3TJw7SgFuVcVAb7fWGqyXfrcHE4AMzd6Rbu82jOvDBix3h',
@@ -133,8 +133,8 @@ export const images = [
   },
   {
     src: 'https://utfs.io/f/vp3TJw7SgFuV0FySCtk2fFDgsSUphtI5b7i9dHCZMzJwGamB',
-    width: 213,
-    height: 320,
+    width: 320,
+    height: 213,
   },
   {
     src: 'https://utfs.io/f/vp3TJw7SgFuV5BlN3sO0EeIs8Di4LlG9rpo2VwOMNcKjazWb',
@@ -143,8 +143,8 @@ export const images = [
   },
   {
     src: 'https://3kkrq3j76r.ufs.sh/f/vp3TJw7SgFuVbqdeRb1igzkIGaHeJcpLArlW9CNodhKfS65X',
-    width: 213,
-    height: 320,
+    width: 320,
+    height: 213,
   },
   {
     src: 'https://3kkrq3j76r.ufs.sh/f/vp3TJw7SgFuVMHj3CwOylI7UEJNSdcPWaxA253b8fvXoKy4M',
