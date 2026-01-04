@@ -86,10 +86,12 @@ const LinksPage = () => {
         ></meta>
       </Head>
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
-        <AnimatedText
-          text="My Favourite Links - A Collection of Articles"
-          className="  text-lightBlack dark:text-lightGray mb-10 mt-12"
-        />
+        <h1 className="py-2 text-center text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-8 text-lightBlack dark:text-light">
+          My Favourite{' '}
+          <span className="bg-clip-text text-coralPink dark:text-accentDark bg-gradient-to-r from-primary-400 to-secondary-600">
+            Links
+          </span>
+        </h1>
         <ul className="md:grid lg:grid-cols-2 gap-16 mb-8 flex flex-col justify-center">
           <FeaturedArticle
             title="Taking stock of the ongoing war in Israel and Gaza"
