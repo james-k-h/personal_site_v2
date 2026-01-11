@@ -1,5 +1,6 @@
 import sql from '../../../../public/images/skills/languages/sql.png';
 import java from '../../../../public/images/skills/languages/java.png';
+import typescript from '../../../../public/images/skills/languages/typescript.png';
 import javascript from '../../../../public/images/skills/languages/js.png';
 import python from '../../../../public/images/skills/languages/python.png';
 import spring_boot from '../../../../public/images/skills/frameworks/spring_boot.png';
@@ -64,6 +65,10 @@ export const p_l_f = [
   {
     label: 'JavaScript',
     src: javascript,
+  },
+  {
+    label: 'TypeScript',
+    src: typescript,
   },
   {
     label: 'Python',
