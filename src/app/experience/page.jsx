@@ -146,6 +146,13 @@ const Experience = () => {
 
         <ul className=" w-full flex flex-col items-start justify-between ml-4 text-left">
           <DetailsEducation
+            type="Certification: Agentic AI"
+            time="December 2026"
+            provider="DeepLearning.AI"
+            info="Build agentic design patterns, integrate with external tools. Evaluate and and optimize AI systems."
+            url="https://learn.deeplearning.ai/certificates/f82a468d-34b2-493c-88dc-a5d9a163f4b9"
+          />
+          <DetailsEducation
             type="Certification: Generative AI for Software Development"
             time="December 2025"
             provider="DeepLearning.AI"
@@ -175,7 +182,7 @@ const Experience = () => {
             time="October 2025 - Present"
             address="1 PCC, Brampton"
             work="Release and Change management, New Features and Program projects alongside other key efforts for the continued adoption 
-            of a Cloud-Native Warehouse, Yard and Labour Management solution across the Loblaw and Shoppers Drug Mart distribution network."
+                 of a Cloud-Native Warehouse, Yard and Labour Management solution across the Loblaw and Shoppers Drug Mart distribution network."
           />{' '}
           <Details
             position="Manager - Supply Chain Technology: Strategic Initiatives"
@@ -184,14 +191,14 @@ const Experience = () => {
             time="August 2024 - September 2025"
             address="1 PCC, Brampton"
             work="Release and Change management, New Features and Program projects alongside other key efforts for the continued adoption 
-            of a Cloud-Native Warehouse, Yard and Labour Management solution across the Loblaw and Shoppers Drug Mart distribution network."
+                 of a Cloud-Native Warehouse, Yard and Labour Management solution across the Loblaw and Shoppers Drug Mart distribution network."
           />{' '}
           <DetailsEducation
             type="Certification: AWS Cloud Technology Consultant"
             time="January 2024"
             provider="AWS"
             info="Applying AWS solutions to business goals and drivers, alongside being able to provide
-            technical direction and oversight to cloud implementation teams."
+                 technical direction and oversight to cloud implementation teams."
             url="https://www.coursera.org/account/accomplishments/professional-cert/WJ5ZAZ3UM25J"
           />{' '}
           <DetailsEducation
@@ -206,7 +213,7 @@ const Experience = () => {
             time="January 2024"
             provider="IBM"
             info="Essential DevOps skills and how to implement them as a SWE. Includes Microservice development (Docker, Kubernetes, OS),
-             CI/CD automation and leveraging serverless technologies."
+                  CI/CD automation and leveraging serverless technologies."
             url="https://coursera.org/share/5979e2a9bb5b3167eb93a753ddd51fca"
           />{' '}
           <DetailsEducation
@@ -223,14 +230,14 @@ const Experience = () => {
             time="June 2023 - July 2024"
             address="1 PCC, Brampton"
             work="Warehouse Management, part of a program team responsible for rolling out and supporting a Cloud-Native WMS Application for Loblaw and Shoppers Distribution Centers.
-            Post conversion, owned the Support, Release and Change Management for multiple Distribution Centers spanning across Canada."
+                 Post conversion, owned the Support, Release and Change Management for multiple Distribution Centers spanning across Canada."
           />{' '}
           <DetailsEducation
             type="Full Stack Developer Program"
             time="March 2023"
             provider="Web Age Solutions"
             info="Bootcamp spanning roughly 6 months; focused on skilling Loblaw employees into application programming. Involved Java, Spring Boot, JDBC,
-            JavaScript and React."
+                 JavaScript and React."
             url="https://www.credly.com/badges/a2394a10-8296-4a04-9881-1833bdca084c/print"
           />{' '}
           <DetailsEducation
@@ -261,7 +268,7 @@ const Experience = () => {
             time=" - December 2020"
             provider="University of Toronto"
             info="Political Science Major.
-            International Relations, International Political Economy, Canadian Government."
+                 International Relations, International Political Economy, Canadian Government."
             url="https://www.utoronto.ca/"
           />{' '}
           <Details
