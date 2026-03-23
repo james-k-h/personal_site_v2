@@ -147,7 +147,7 @@ const Experience = () => {
         <ul className=" w-full flex flex-col items-start justify-between ml-4 text-left">
           <DetailsEducation
             type="Certification: Agentic AI"
-            time="December 2026"
+            time="February 2026"
             provider="DeepLearning.AI"
             info="Build agentic design patterns, integrate with external tools. Evaluate and optimize AI systems."
             url="https://learn.deeplearning.ai/certificates/f82a468d-34b2-493c-88dc-a5d9a163f4b9"
