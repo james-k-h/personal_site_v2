@@ -146,6 +146,13 @@ const Experience = () => {
 
         <ul className=" w-full flex flex-col items-start justify-between ml-4 text-left">
           <DetailsEducation
+            type="Certification: Machine Learning Specialization"
+            time="March 2026"
+            provider="Stanford Online"
+            info="Supervised and Unsupervised ML, advanced learning algorithms."
+            url="https://learn.deeplearning.ai/certificates/23d61ac0-2bc0-4706-8842-a4ba4ace2803"
+          />
+          <DetailsEducation
             type="Certification: Agentic AI"
             time="February 2026"
             provider="DeepLearning.AI"
