@@ -145,6 +145,22 @@ const Experience = () => {
         />
 
         <ul className=" w-full flex flex-col items-start justify-between ml-4 text-left">
+          <DetailsEducation2
+            type="DevOps Program"
+            time=" - April 2026 "
+            provider="University of Toronto"
+            info=<ul>
+              <p> Four part program, consisting of the following:</p>
+              <li>1. Principles and Practices [Done]</li>
+              <li>
+                2. Ecosystem, Architecture and Continuous Software Delivery
+                [Done]
+              </li>
+              <li>3. Tools and Applications [Done]</li>
+              <li> 4. Design and Architecture of Cloud Systems [Done]</li>
+            </ul>
+            url="https://learn.utoronto.ca/programs-courses/certificates/devops"
+          />
           <DetailsEducation
             type="Certification: Machine Learning Specialization"
             time="March 2026"
@@ -165,22 +181,6 @@ const Experience = () => {
             provider="DeepLearning.AI"
             info="Embedding AI in software and systems design, in tandem with engineering."
             url="https://learn.deeplearning.ai/certificates/c6ab2053-6701-43e8-b2b4-68e088335696"
-          />
-          <DetailsEducation2
-            type="DevOps Program"
-            time=" Feb 2025 - [In Progress] "
-            provider="University of Toronto"
-            info=<ul>
-              <p> Four part program, consisting of the following:</p>
-              <li>1. Principles and Practices [Done]</li>
-              <li>
-                2. Ecosystem, Architecture and Continuous Software Delivery
-                [Done]
-              </li>
-              <li>3. Tools and Applications [Spring 2026]</li>
-              <li> 4. Design and Architecture of Cloud Systems [Done]</li>
-            </ul>
-            url="https://learn.utoronto.ca/programs-courses/certificates/devops"
           />
           <Details
             position="Senior Manager - Supply Chain Technology: Strategic Initiatives"
