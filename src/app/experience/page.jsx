@@ -151,13 +151,12 @@ const Experience = () => {
             provider="University of Toronto"
             info=<ul>
               <p> Four part program, consisting of the following:</p>
-              <li>1. Principles and Practices [Done]</li>
+              <li>1. Principles and Practices</li>
               <li>
                 2. Ecosystem, Architecture and Continuous Software Delivery
-                [Done]
               </li>
-              <li>3. Tools and Applications [Done]</li>
-              <li> 4. Design and Architecture of Cloud Systems [Done]</li>
+              <li>3. Tools and Applications</li>
+              <li> 4. Design and Architecture of Cloud Systems</li>
             </ul>
             url="https://learn.utoronto.ca/programs-courses/certificates/devops"
           />
