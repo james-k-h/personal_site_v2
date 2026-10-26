@@ -13,7 +13,7 @@ const projectsData = [
     image: '/images/projects/jkh_fitness.png',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/james-k-h/personal_training',
-    previewUrl: 'https://personal-training-phi.vercel.app/',
+    previewUrl: '',
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const projectsData = [
     image: '/images/projects/sneaker_store_v2.png',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/james-k-h/sneaker_store_v2.1',
-    previewUrl: 'https://sneaker-store-v2.vercel.app/',
+    previewUrl: '',
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ const projectsData = [
     image: '/images/projects/bayview_eatery.png',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/james-k-h/restaurant',
-    previewUrl: 'https://bayview-eatery.vercel.app',
+    previewUrl: '',
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ const projectsData = [
     image: '/images/projects/next_property_rental.png',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/james-k-h/next_property_rental',
-    previewUrl: 'https://next-property-rental.vercel.app/',
+    previewUrl: '',
   },
 
   {
@@ -74,7 +74,7 @@ const projectsData = [
     image: '/images/projects/communities.png',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/james-k-h/communities/',
-    previewUrl: 'https://communities-alpha.vercel.app/',
+    previewUrl: '',
   },
   {
     id: 8,
@@ -84,7 +84,7 @@ const projectsData = [
     image: '/images/projects/mern_dash.png',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/james-k-h/mern_dash',
-    previewUrl: 'https://mern-client-dash.onrender.com',
+    previewUrl: '',
   },
   {
     id: 9,
@@ -104,7 +104,7 @@ const projectsData = [
     image: '/images/projects/code_editor.png',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/james-k-h/code_editor',
-    previewUrl: 'https://code-editor-ten-steel.vercel.app/',
+    previewUrl: '',
   },
   {
     id: 11,
@@ -114,8 +114,7 @@ const projectsData = [
     image: '/images/projects/job_search_stats.png',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/james-k-h/mern_job_search/tree/main',
-    previewUrl: 'https://job-search-d9xp.onrender.com',
-  },
+    previewUrl: '',  },
   {
     id: 12,
     stack: 'React-Native, JavaScript, Redux, Firebase',
@@ -138,7 +137,7 @@ const ProjectsSection = () => {
   };
 
   const filteredProjects = projectsData.filter((project) =>
-    project.tag.includes(tag)
+    project.tag.includes(tag),
   );
 
   const cardVariants = {
@@ -158,8 +157,6 @@ const ProjectsSection = () => {
         Hover to visit the source code repository and the live-hosted site, if
         applicable.
         <br />
-        <b>Note:</b> Some of these projects are hosted on free hosting platforms
-        so they might take a up to a minute to load.
       </p>
       <div className="grid grid-cols-2 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4  text-lightBlack dark:text-light  flex-row justify-center items-center gap-3 py-6 ">
         <ProjectTag
